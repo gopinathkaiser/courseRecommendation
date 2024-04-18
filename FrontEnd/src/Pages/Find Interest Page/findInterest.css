@@ -1,0 +1,27 @@
+.tech::before{
+    content: 'Technical Interest:';
+    position: absolute;
+    bottom: 3.5rem;
+    left: 0;
+}
+
+.nonTech::before{
+    content: 'Non-Technical Interest:';
+    position: absolute;
+    bottom: 3.5rem;
+    left: 0;
+}
+
+.general::before{
+    content: 'General Interest:';
+    position: absolute;
+    bottom: 3.5rem;
+    left: 0;
+}
+
+.achievements::before{
+    content: 'Achievement:';
+    position: absolute;
+    bottom: 3.5rem;
+    left: 0;
+}

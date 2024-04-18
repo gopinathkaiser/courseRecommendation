@@ -3,20 +3,12 @@ package com.courseRecommendation.courseRecommendation.service;
 import com.courseRecommendation.courseRecommendation.dto.ApiResponseDto;
 import com.courseRecommendation.courseRecommendation.model.EntranceExams;
 import com.courseRecommendation.courseRecommendation.repository.EntranceExamsRepo;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
-import org.springframework.boot.json.JsonParserFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @Service
 @RequiredArgsConstructor
@@ -26,6 +18,11 @@ public class EntranceExamsService {
 
     public ResponseEntity<ApiResponseDto> getAllEntranceExams() {
         List<EntranceExams> allEntranceExams = entranceExamsRepo.findAll();
+        for(EntranceExams e : allEntranceExams) {
+            String str = e.getExam();
+            String newStr = str.replaceAll("'", "\"");
+            e.setExam(newStr);
+        }
         ApiResponseDto apiResponseDto = ApiResponseDto.builder()
                 .status(HttpStatus.OK)
                 .message("All Entrance Exams")
