@@ -1,0 +1,616 @@
+{
+  "1": {
+    "Name": "Engineering (Various disciplines such as Computer Science, Mechanical, Electrical, etc.)",
+    "Required Skills": [
+      "Strong analytical skills",
+      "Problem-solving abilities",
+      "Aptitude for mathematics and science",
+      "Programming skills (varies by specialization)",
+      "Logical thinking",
+      "Ability to work in teams"
+    ],
+    "Upskilling Courses": [
+      "Data Science and Machine Learning",
+      "Cloud Computing",
+      "Project Management",
+      "Domain-specific specializations (e.g., Robotics, Cybersecurity)"
+    ],
+    "Future Demand": "High - Automation, innovation across industries"
+  },
+  "2": {
+    "Name": "Medicine (MBBS, BDS, etc.)",
+    "Required Skills": [
+      "Excellent communication and interpersonal skills",
+      "Compassion and empathy",
+      "Strong work ethic and ability to handle pressure",
+      "Scientific reasoning and critical thinking",
+      "Dexterity and hand-eye coordination (for some specializations)"
+    ],
+    "Upskilling Courses": [
+      "Telemedicine and Digital Health",
+      "Specialization in emerging fields (e.g., Genomics, Personalized Medicine)",
+      "Medical Education and Communication Skills"
+    ],
+    "Future Demand": "High - Growing population, increasing focus on preventive care"
+  },
+  "3": {
+    "Name": "Pharmacy (B.Pharma)",
+    "Required Skills": [
+      "Strong foundation in chemistry and biology",
+      "Attention to detail and accuracy",
+      "Analytical and problem-solving skills",
+      "Excellent communication and interpersonal skills",
+      "Ability to work independently and as part of a team"
+    ],
+    "Upskilling Courses": [
+      "Clinical Pharmacy",
+      "Pharmaceutical Regulatory Affairs",
+      "Drug Discovery and Development",
+      "Business and Marketing for Pharmaceuticals"
+    ],
+    "Future Demand": "Moderate - Growing demand for medication, automation in some areas"
+  },
+  "4": {
+    "Name": "Commerce (B.Com, BBA, etc.)",
+    "Required Skills": [
+      "Strong analytical and problem-solving skills",
+      "Excellent communication and interpersonal skills",
+      "Financial literacy and numeracy",
+      "Business acumen and understanding of market trends",
+      "Ability to work independently and as part of a team"
+    ],
+    "Upskilling Courses": [
+      "Business Analytics and Data Visualization",
+      "Digital Marketing and E-commerce",
+      "Financial Modeling and Risk Management",
+      "Entrepreneurship and Innovation"
+    ],
+    "Future Demand": "High - Evolving business landscape, need for data-driven decisions"
+  },
+  "5": {
+    "Name": "Arts (BA, BFA, etc.)",
+    "Required Skills": [
+      "Strong written and verbal communication skills",
+      "Critical thinking and analytical abilities",
+      "Creativity and imagination",
+      "Research and information literacy skills (may vary by specialization)",
+      "Ability to express oneself through various artistic mediums (may vary by specialization)"
+    ],
+    "Upskilling Courses": [
+      "Digital Content Creation and Storytelling",
+      "Graphic Design and User Experience (UX) Design",
+      "Arts Management and Entrepreneurship",
+      "Data Visualization and Infographics"
+    ],
+    "Future Demand": "Moderate - Demand for creative skills in various fields, competition may be high"
+  },
+  "6": {
+    "Name": "Design (Fashion Design, Interior Design, etc.)",
+    "Required Skills": [
+      "Creativity and a strong sense of aesthetics",
+      "Visual thinking and spatial awareness",
+      "Problem-solving and critical thinking skills",
+      "Technical skills specific to the design field (e.g., software, sketching)",
+      "Excellent communication and collaboration skills"
+    ],
+    "Upskilling Courses": [
+      "3D Modeling and Design Software",
+      "Sustainable Design Practices",
+      "User-Centered Design (UCD) principles",
+      "Design Thinking and Innovation"
+    ],
+    "Future Demand": "Moderate - Evolving design needs, competition may be high"
+  },
+  "7": {
+    "Name": "Law (LLB)",
+    "Required Skills": [
+      "Excellent analytical and research skills",
+      "Strong written and verbal communication skills",
+      "Critical thinking and problem-solving abilities",
+      "Ability to interpret complex legal documents",
+      "Attention to detail and accuracy"
+    ],
+    "Upskilling Courses": [
+      "Cyber Law and Intellectual Property Rights",
+      "Alternative Dispute Resolution (ADR)",
+      "Legal Technology and Data Privacy"
+    ],
+    "Future Demand": "Moderate - Need for legal expertise in various sectors, competition may be high"
+  },
+  "8": {
+    "Name": "Hotel Management",
+    "Required Skills": [
+      "Excellent communication and interpersonal skills",
+      "Organizational and time management skills",
+      "Customer service orientation and ability to handle difficult situations",
+      "Business acumen and understanding of hospitality industry trends",
+      "Ability to work in a fast-paced and demanding environment"
+    ],
+    "Upskilling Courses": [
+      "Revenue Management and Hospitality Marketing",
+      "Sustainable Hospitality Practices",
+      "Data Analytics for Hospitality Industry"
+    ],
+    "Future Demand": "Moderate - Recovery expected post-pandemic, automation may impact some roles"
+  },
+  "9": {
+    "Name": "Mass Communication (Journalism, Advertising, etc.)",
+    "Required Skills": [
+      "Excellent written and verbal communication skills",
+      "Research and information literacy skills",
+      "Critical thinking and analytical abilities",
+      "Creativity and storytelling skills",
+      "Understanding of digital media and communication technologies"
+    ],
+    "Upskilling Courses": [
+      "Data Journalism and Visualization",
+      "Content Marketing and Copywriting",
+      "Social Media Marketing and Analytics"
+    ],
+    "Future Demand": "High - Need for skilled communicators in the digital age"
+  },
+  "10": {
+    "Name": "Animation and Multimedia",
+    "Required Skills": [
+      "Strong artistic skills and a visual sense",
+      "Creativity and imagination",
+      "Technical skills in animation software and multimedia tools",
+      "Storytelling and character development skills (for some specializations)",
+      "Problem-solving and critical thinking abilities"
+    ],
+    "Upskilling Courses": [
+      "3D Animation and Modeling Software (e.g., Maya, Blender)",
+      "Virtual Reality (VR) and Augmented Reality (AR) Technologies",
+      "Game Design and Development"
+    ],
+    "Future Demand": "High - Growing demand for animation and multimedia skills in various industries"
+  },
+  "11": {
+    "Name": "Biotechnology",
+    "Required Skills": [
+      "Strong foundation in biology and chemistry",
+      "Analytical and problem-solving skills",
+      "Laboratory skills",
+      "Data analysis skills",
+      "Attention to detail and accuracy"
+    ],
+    "Upskilling Courses": [
+      "Bioinformatics and Computational Biology",
+      "Biomedical Engineering",
+      "Medical Genomics and Personalized Medicine"
+    ],
+    "Future Demand": "High - Growing demand for expertise in biotechnologies for healthcare, agriculture, etc."
+  },
+  "12": {
+    "Name": "Agriculture and Allied Fields",
+    "Required Skills": [
+      "Understanding of plant and animal science",
+      "Problem-solving and critical thinking abilities",
+      "Ability to work outdoors in various weather conditions (may vary by specialization)"
+    ],
+    "Upskilling Courses": [
+      "Precision Agriculture and Agritech",
+      "Sustainable Agriculture Practices",
+      "Food Science and Technology"
+    ],
+    "Future Demand": "Moderate - Need for innovation and technology adoption in agriculture, competition may be high"
+  },
+  "12": {
+    "Name": "Agriculture and Allied Fields",
+    "Required Skills": [
+      "Understanding of plant and animal science",
+      "Problem-solving and critical thinking abilities",
+      "Ability to work outdoors in various weather conditions (may vary by specialization)"
+    ],
+    "Upskilling Courses": [
+      "Precision Agriculture and Agritech",
+      "Sustainable Agriculture Practices",
+      "Food Science and Technology"
+    ],
+    "Future Demand": "Moderate - Need for innovation and technology adoption in agriculture, competition may be high"
+  },
+  "13": {
+    "Name": "Forensic Science",
+    "Required Skills": [
+      "Strong foundation in biology and chemistry (often preferred)"
+    ],
+    "Upskilling Courses": [
+      "Digital Forensics and Cybercrime Investigation",
+      "Forensic Toxicology",
+      "DNA Analysis and Serology"
+    ],
+    "Future Demand": "High - Growing demand for forensic expertise in law enforcement and legal sectors"
+  },
+  "14": {
+    "Name": "Environmental Science",
+    "Required Skills": [
+      "Strong foundation in biology, chemistry, and earth sciences"
+    ],
+    "Upskilling Courses": [
+      "Environmental Policy and Regulations",
+      "Renewable Energy and Sustainability Technologies",
+      "Geographic Information Systems (GIS) and Remote Sensing"
+    ],
+    "Future Demand": "High - Increasing focus on environmental sustainability across industries"
+  },
+  "15": {
+    "Name": "Fine Arts (BFA, MFA, etc.)",
+    "Required Skills": [
+      "Strong artistic skills and a visual sense",
+      "Creativity and imagination",
+      "Ability to express oneself through various artistic mediums"
+    ],
+    "Upskilling Courses": [
+      "Digital Art and Design (e.g., 3D modeling, animation)",
+      "Arts Entrepreneurship and Marketing",
+      "Art Therapy and Creative Education"
+    ],
+    "Future Demand": "Moderate - Demand for creative skills in various fields, competition may be high"
+  },
+  "16": {
+    "Name": "Event Management",
+    "Required Skills": [
+      "Excellent communication and interpersonal skills",
+      "Organizational and time management skills",
+      "Attention to detail and accuracy",
+      "Ability to work effectively under pressure",
+      "Problem-solving and critical thinking abilities"
+    ],
+    "Upskilling Courses": [
+      "Event Technology and Project Management",
+      "Experiential Marketing and Sponsorship Management",
+      "Sustainable Event Planning and Practices"
+    ],
+    "Future Demand": "Moderate - Event industry recovery expected post-pandemic, competition may be high"
+  },
+  "17": {
+    "Name": "Digital Marketing",
+    "Required Skills": [
+      "Strong analytical and problem-solving skills",
+      "Understanding of digital marketing concepts and tools (SEO, SEM, social media marketing, etc.)",
+      "Excellent communication and writing skills",
+      "Creativity and data-driven approach"
+    ],
+    "Upskilling Courses": [
+      "Content Marketing and Social Media Analytics",
+      "Search Engine Marketing (SEM) and Pay-Per-Click (PPC) Advertising",
+      "Marketing Automation and E-commerce Marketing"
+    ],
+    "Future Demand": "High - Evolving digital landscape requires skilled digital marketers"
+  },
+  "18": {
+    "Name": "Human Resources Management (HRM)",
+    "Required Skills": [
+      "Excellent communication and interpersonal skills",
+      "Strong organizational and problem-solving skills",
+      "Understanding of labor laws and regulations",
+      "Ability to build relationships and manage conflict"
+    ],
+    "Upskilling Courses": [
+      "Human Capital Analytics and Talent Management",
+      "Organizational Development and Change Management",
+      "Employee Relations and Labor Law Compliance"
+    ],
+    "Future Demand": "High - Growing emphasis on strategic HR, employee engagement, and talent acquisition"
+  },
+  "19": {
+    "Name": "Fashion Technology",
+    "Required Skills": [
+      "Strong sense of aesthetics and fashion trends",
+      "Understanding of textiles and garment construction",
+      "Technical skills in design software and production processes (may vary by specialization)"
+    ],
+    "Upskilling Courses": [
+      "Computer-Aided Design (CAD) for Fashion",
+      "Sustainable Fashion Practices and Material Innovation",
+      "3D Clothing Design and Prototyping"
+    ],
+    "Future Demand": "Moderate - Growing demand for technological advancements in the fashion industry"
+  },
+  "20": {
+    "Name": "Culinary Arts",
+    "Required Skills": [
+      "Passion for food and cooking",
+      "Knife skills and culinary techniques",
+      "Ability to work in a fast-paced and demanding kitchen environment",
+      "Attention to detail and hygiene standards"
+    ],
+    "Upskilling Courses": [
+      "Plant-Based Cuisine and Vegan Cooking",
+      "Food Styling and Plating Techniques",
+      "Restaurant Management and Culinary Entrepreneurship"
+    ],
+    "Future Demand": "Moderate - Recovery expected post-pandemic, demand for skilled chefs in various sectors"
+  },
+  "21": {
+    "Name": "Travel and Tourism Management",
+    "Required Skills": [
+      "Excellent communication and interpersonal skills",
+      "Organizational and time management skills",
+      "Knowledge of travel destinations and tourism industry trends",
+      "Customer service orientation and ability to handle difficult situations"
+    ],
+    "Upskilling Courses": [
+      "Sustainable Tourism Practices and Ecotourism",
+      "Travel Technology and Online Distribution Channels",
+      "Destination Marketing and Event Management in Tourism"
+    ],
+    "Future Demand": "High - Travel industry expected to rebound post-pandemic, with a focus on sustainability"
+  },
+  "23": {
+    "Name": "Social Work",
+    "Required Skills": [
+      "Strong communication and interpersonal skills",
+      "Compassion and empathy",
+      "Problem-solving and critical thinking abilities",
+      "Ability to work effectively with diverse populations"
+    ],
+    "Upskilling Courses": [
+      "Trauma-Informed Care and Mental Health",
+      "Social Policy and Advocacy",
+      "Community Development and Program Management"
+    ],
+    "Future Demand": "High - Growing need for social workers in various sectors (healthcare, child welfare, etc.)"
+  },
+  "24": {
+    "Name": "Psychology",
+    "Required Skills": [
+      "Strong analytical and research skills",
+      "Excellent communication and interpersonal skills",
+      "Active listening skills and empathy",
+      "Attention to detail and accuracy"
+    ],
+    "Upskilling Courses": [
+      "Clinical Psychology and Mental Health Interventions",
+      "Industrial-Organizational Psychology and Workplace Issues",
+      "Data Analysis and Statistics for Psychology Research"
+    ],
+    "Future Demand": "High - Increasing demand for psychologists in various settings (clinical, educational, industrial)"
+  },
+  "25": {
+    "Name": "Accounting",
+    "Required Skills": [
+      "Strong analytical and problem-solving skills",
+      "Attention to detail and accuracy",
+      "Understanding of accounting principles and financial statements",
+      "Excellent communication and interpersonal skills (may vary by specialization)"
+    ],
+    "Upskilling Courses": [
+      "Financial Modeling and Valuation",
+      "Forensic Accounting and Fraud Detection",
+      "Accounting Software and Technology"
+    ],
+    "Future Demand": "High - Continued demand for accountants in various industries"
+  },
+  "26": {
+    "Name": "Entrepreneurship",
+    "Required Skills": [
+      "Creativity and innovation",
+      "Business acumen and understanding of market trends",
+      "Strong work ethic and ability to handle pressure",
+      "Excellent communication and interpersonal skills"
+    ],
+    "Upskilling Courses": [
+      "Lean Startup Methodology and Business Model Canvas",
+      "Digital Marketing and E-commerce for Startups",
+      "Venture Capital and Fundraising for Entrepreneurs"
+    ],
+    "Future Demand": "High - Growing interest in entrepreneurship, but competition can be high"
+  },
+  "27": {
+    "Name": "Data Science",
+    "Required Skills": [
+      "Strong analytical and problem-solving skills",
+      "Programming skills (Python, R, etc.)",
+      "Statistical knowledge and data analysis skills",
+      "Communication skills to present findings"
+    ],
+    "Upskilling Courses": [
+      "Machine Learning and Artificial Intelligence",
+      "Big Data Analytics and Cloud Computing",
+      "Data Visualization and Storytelling"
+    ],
+    "Future Demand": "Very High - Increasing demand for data science expertise across industries"
+  },
+  "28": {
+    "Name": "Computer Science",
+    "Required Skills": [
+      "Strong analytical and problem-solving skills",
+      "Programming skills in various languages",
+      "Logical thinking and algorithmic thinking",
+      "Ability to work independently and as part of a team"
+    ],
+    "Upskilling Courses": [
+      "Software Engineering and Web Development",
+      "Cybersecurity and Network Security",
+      "Artificial Intelligence and Machine Learning"
+    ],
+    "Future Demand": "Very High - Strong demand for skilled computer scientists in various fields"
+  },
+  "29": {
+    "Name": "Information Technology (IT)",
+    "Required Skills": [
+      "Strong analytical and problem-solving skills",
+      "Understanding of computer hardware and software",
+      "Technical skills in specific IT areas (networking, cybersecurity, etc.)",
+      "Ability to learn new technologies quickly"
+    ],
+    "Upskilling Courses": [
+      "Cloud Computing and IT Infrastructure",
+      "Cybersecurity and Data Protection",
+      "IT Help Desk and Network Administration"
+    ],
+    "Future Demand": "High - Demand for IT professionals to support digital transformation"
+  },
+  "30": {
+    "Name": "Teaching (B.Ed., etc.)",
+    "Required Skills": [
+      "Strong subject knowledge and ability to explain concepts clearly",
+      "Excellent communication and interpersonal skills",
+      "Patience and empathy",
+      "Ability to create a positive and engaging learning environment"
+    ],
+    "Upskilling Courses": [
+      "Educational Technology and Instructional Design",
+      "Classroom Management and Student Engagement Strategies",
+      "Special Education and Inclusive Practices"
+    ],
+    "Future Demand": "Moderate - Demand varies depending on subject area and location"
+  },
+   I understand. You only wanted the data for options 31-36. Here it is, without any repetitions from previous responses:
+
+JSON
+{
+  "31": {
+    "Name": "Foreign Languages",
+    "Required Skills": [
+      "Strong aptitude for languages and learning new vocabulary",
+      "Excellent communication and interpersonal skills",
+      "Understanding of grammar and cultural nuances",
+      "Ability to learn different language learning methods"
+    ],
+    "Upskilling Courses": [
+      "Computer-Assisted Language Learning (CALL) and Online Resources",
+      "Translation and Interpretation Techniques",
+      "Teaching English as a Second Language (TESL) or Teaching Other Languages"
+    ],
+    "Future Demand": "High - Growing demand for bilingual professionals in various sectors (education, business, tourism)"
+  },
+  "32": {
+    "Name": "Physical Education",
+    "Required Skills": [
+      "Strong understanding of health and fitness principles",
+      "Excellent communication and interpersonal skills",
+      "Ability to motivate and inspire others",
+      "Leadership skills and ability to organize activities"
+    ],
+    "Upskilling Courses": [
+      "Sports Coaching and Conditioning",
+      "Adapted Physical Education and Inclusive Practices",
+      "Health Education and Wellness Programs"
+    ],
+    "Future Demand": "Moderate - Demand varies depending on the specific area (teaching, coaching, fitness)"
+  },
+  "33": {
+    "Name": "Library Science",
+    "Required Skills": [
+      "Strong organizational and information management skills",
+      "Excellent research and information literacy skills",
+      "Understanding of library systems and technologies",
+      "Communication and interpersonal skills to assist patrons"
+    ],
+    "Upskilling Courses": [
+      "Digital Librarianship and Information Technology",
+      "Data Curation and Archiving",
+      "Library Management and User Services"
+    ],
+    "Future Demand": "Moderate - Demand for librarians is evolving, with a need for digital expertise"
+  },
+  "34": {
+    "Name": "Philosophy",
+    "Required Skills": [
+      "Strong analytical and critical thinking skills",
+      "Excellent communication and writing skills",
+      "Ability to read and interpret complex texts",
+      "Open-mindedness and a willingness to consider different perspectives"
+    ],
+    "Upskilling Courses": [
+      "Bioethics and Applied Ethics",
+      "Logic and Argumentation",
+      "History of Philosophy and Philosophical Traditions"
+    ],
+    "Future Demand": "Moderate - Philosophy graduates can find careers in research, education, law, and other fields requiring strong analytical skills"
+  },
+  "35": {
+    "Name": "Performing Arts (Drama, Dance, Music, etc.)",
+    "Required Skills": [
+      "Strong talent and passion for the chosen performing art",
+      "Discipline and perseverance",
+      "Communication and stage presence",
+      "Creativity and ability to interpret artistic works"
+    ],
+    "Upskilling Courses": [
+      "Acting Techniques (for Drama)",
+      "Dance Techniques (for Dance)",
+      "Music Theory and Performance (for Music)",
+      "Arts Management and Entrepreneurship"
+    ],
+    "Future Demand": "Competitive - High demand for talent, but limited opportunities in professional performance roles"
+  },
+  "36": {
+    "Name": "Public Relations",
+    "Required Skills": [
+      "Excellent communication and writing skills",
+      "Strong analytical and problem-solving skills",
+      "Media literacy and understanding of public relations strategies",
+      "Ability to build relationships and manage reputation"
+    ],
+    "Upskilling Courses": [
+      "Social Media Marketing and Public Relations",
+      "Crisis Communication and Reputation Management",
+      "Public Relations Writing and Content Marketing"
+    ],
+    "Future Demand": "High - Demand for skilled public relations professionals across industries"
+  },
+  "37": {
+    "Name": "Healthcare Management",
+    "Required Skills": [
+      "Strong analytical and problem-solving skills",
+      "Understanding of healthcare systems and regulations",
+      "Leadership and business acumen",
+      "Excellent communication and interpersonal skills"
+    ],
+    "Upskilling Courses": [
+      "Healthcare Finance and Revenue Cycle Management",
+      "Healthcare Policy and Regulatory Affairs",
+      "Medical Staff Management and Leadership in Healthcare Organizations"
+    ],
+    "Future Demand": "High - Growing demand for healthcare managers due to an aging population and complex healthcare systems"
+  },
+  "38": {
+    "Name": "Nutrition and Dietetics",
+    "Required Skills": [
+      "Strong foundation in science (biology, chemistry)",
+      "Understanding of nutrition principles and dietary needs",
+      "Excellent communication and interpersonal skills",
+      "Ability to educate and motivate individuals towards healthy eating habits"
+    ],
+    "Upskilling Courses": [
+      "Sports Nutrition and Performance Enhancement",
+      "Public Health Nutrition and Food Policy",
+      "Clinical Nutrition and Dietary Management for Chronic Diseases"
+    ],
+    "Future Demand": "High - Growing emphasis on preventive healthcare and personalized nutrition plans"
+  },
+  "39": {
+    "Name": "Sports Management",
+    "Required Skills": [
+      "Strong understanding of the sports industry",
+      "Business acumen and marketing skills",
+      "Excellent communication and interpersonal skills",
+      "Leadership and organizational skills"
+    ],
+    "Upskilling Courses": [
+      "Sports Marketing and Sponsorship Management",
+      "Event Management in Sports",
+      "Sports Analytics and Performance Management"
+    ],
+    "Future Demand": "High - Growing demand for professionals to manage the business side of sports"
+  },
+  "40": {
+    "Name": "Defense Services (Army, Navy, Air Force)",
+    "Required Skills": [
+      "Physical fitness and stamina",
+      "Discipline and leadership qualities",
+      "Teamwork and collaboration skills",
+      "Ability to follow orders and work under pressure"
+    ],
+    "Upskilling Courses": [
+      "Military Training and Specialization Courses (vary by service branch)",
+      "Leadership Development and Strategic Studies",
+      "Defense Technology and Weapon Systems (vary by service branch)"
+    ],
+    "Future Demand": "Varies - Depends on geopolitical situations and national defense needs"
+  }
+}
+
