@@ -52,7 +52,7 @@ const InterestOutput = ({ interestsList, setPage }) => {
     // ]
 
   return (
-    <div className='w-full h-screen p-[2rem]'>
+    <div className='w-full p-[2rem]'>
       <p className='text-2xl font-semibold text-[#5C72EA] flex items-center'><span className='text-black mr-2 hover:text-[#5C72EA] cursor-pointer' onClick={()=>setPage('selection')}><IoArrowBack/></span>According to your selections, these are the suggestions.</p>
       <div className='mt-[2rem] h-[90%] gap-[1.3rem] grid grid-cols-3'>
         {
