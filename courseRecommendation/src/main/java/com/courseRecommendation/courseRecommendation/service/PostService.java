@@ -3,7 +3,9 @@ package com.courseRecommendation.courseRecommendation.service;
 import com.courseRecommendation.courseRecommendation.dto.AddPostDto;
 import com.courseRecommendation.courseRecommendation.dto.ApiResponseDto;
 import com.courseRecommendation.courseRecommendation.model.Post;
+import com.courseRecommendation.courseRecommendation.model.UserDetails;
 import com.courseRecommendation.courseRecommendation.repository.PostRepo;
+import com.courseRecommendation.courseRecommendation.repository.UserDetailsRepo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,12 +19,15 @@ import java.util.List;
 @RequiredArgsConstructor
 public class PostService {
     private final PostRepo postRepo;
+    private final UserDetailsRepo  userDetailsRepo;
 
     public ResponseEntity<ApiResponseDto> addPosts(AddPostDto addPostDto){
+        UserDetails userDetails = userDetailsRepo.findByEmail(addPostDto.getEmail());
         Post post = Post.builder()
                 .caption(addPostDto.getCaption())
                 .image(addPostDto.getImage())
                 .title(addPostDto.getTitle())
+                .userDetails(userDetails)
                 .build();
 
         postRepo.save(post);

@@ -74,18 +74,3 @@ const ScholarshipPage = () => {
 
 export default ScholarshipPage
 
-
-
-// {
-//     "id": 1,
-//     "sname": "Vocational Education Fee Reimbursement.",
-//     "authority": "Government",
-//     "aname": "Tribal Development Department",
-//     "category": "ST",
-//     "cutoff": "pass",
-//     "state": "Maharashtra",
-//     "applbranch": "Engineering, Pharmacy , Animal Husbandry, Dairy Development, Vaastu Shastra, MBA, MCA",
-//     "incomelimit": "250000",
-//     "benefit": "Tuition Fee and Exam Fee",
-//     "link": "https://mahadbtmahait.gov.in/SchemeData/SchemeData?str=E9DDFA703C38E51AC6B28ED14CE96709",
-// }

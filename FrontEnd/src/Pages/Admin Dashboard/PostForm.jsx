@@ -1,87 +1,21 @@
-// import React, { useState } from 'react';
 
-// const PostForm = () => {
-//   const [title, setTitle] = useState('');
-//   const [caption, setCaption] = useState('');
-//   const [image, setImage] = useState(null);
+import { useState } from 'react';
+import { initializeApp } from 'firebase/app';
+import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 
-//   const handleTitleChange = (e) => {
-//     setTitle(e.target.value);
-//   };
+const firebaseConfig = {
+  apiKey: "AIzaSyCm-yBp_Oz-F4zhlUaeMKI6j-HlEwHI31g",
+  authDomain: "courserecommendation-86c99.firebaseapp.com",
+  projectId: "courserecommendation-86c99",
+  storageBucket: "courserecommendation-86c99.appspot.com",
+  messagingSenderId: "935737551110",
+  appId: "1:935737551110:web:e9e3919a7dd4ac4f05d687"
+};
 
-//   const handleCaptionChange = (e) => {
-//     setCaption(e.target.value);
-//   };
+const app = initializeApp(firebaseConfig);
 
-//   const handleImageChange = (e) => {
-//     const file = e.target.files[0];
-//     setImage(file);
-//   };
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     // Add your logic to handle the form submission (e.g., upload the image and data to a server)
-//     console.log(title, caption, image);
-//   };
-
-//   return (
-//     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-//       <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full max-w-lg">
-//         <div className="mb-4">
-//           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="title">
-//             Title
-//           </label>
-//           <input
-//             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-//             id="title"
-//             type="text"
-//             placeholder="Enter title"
-//             value={title}
-//             onChange={handleTitleChange}
-//           />
-//         </div>
-//         <div className="mb-4">
-//           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="caption">
-//             Caption
-//           </label>
-//           <textarea
-//             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-//             id="caption"
-//             placeholder="Enter caption"
-//             value={caption}
-//             onChange={handleCaptionChange}
-//           />
-//         </div>
-//         <div className="mb-4">
-//           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="image">
-//             Image
-//           </label>
-//           <input
-//             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-//             id="image"
-//             type="file"
-//             accept="image/*"
-//             onChange={handleImageChange}
-//           />
-//         </div>
-//         <div className="flex items-center justify-between">
-//           <button
-//             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-//             type="submit"
-//           >
-//             Post
-//           </button>
-//         </div>
-//       </form>
-//     </div>
-//   );
-// };
-
-// export default PostForm;
-
-import React, { useState } from 'react';
-
-const PostForm = ({showForm, toggleForm}) => {
+const storage = getStorage(app); 
+const PostForm = ({ showForm, toggleForm }) => {
   const [title, setTitle] = useState('');
   const [caption, setCaption] = useState('');
   const [image, setImage] = useState(null);
@@ -99,21 +33,38 @@ const PostForm = ({showForm, toggleForm}) => {
     setImage(file);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Add your logic to handle the form submission (e.g., upload the image and data to a server)
-    console.log(title, caption, image);
-    // Close the form after submission
-    toggleForm();
+
+    const imageRef = ref(storage, image.name);
+    await uploadBytes(imageRef, image);
+    const imageUrl = await getDownloadURL(imageRef);
+
+    const payload = {
+      title: title,
+      caption: caption,
+      image: imageUrl,
+      email: "admin@gmail.com"
+    };
+
+    const response = await fetch('http://localhost:8080/api/v1/posts', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(payload)
+    });
+
+    if (response.ok) {
+      console.log('Post created successfully');
+      toggleForm();
+    } else {
+      console.error('Failed to create post');
+    }
   };
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      {/* <button
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-      >
-        Create Post
-      </button> */}
       {showForm && (
         <div className="fixed z-10 inset-0 overflow-y-auto">
           <div className="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
@@ -192,4 +143,6 @@ const PostForm = ({showForm, toggleForm}) => {
 };
 
 export default PostForm;
+
+
 

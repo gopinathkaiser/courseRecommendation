@@ -8,6 +8,7 @@ import CollegePage from './Pages/Colleges Page/CollegePage';
 import FindInterest from './Pages/Find Interest Page/FindInterest';
 import ExamsPage from './Pages/Exams Page/ExamsPage';
 import AdminDashboard from './Pages/Admin Dashboard/AdminDashboard';
+import ChatPage from './Pages/chat page/ChatPage';
 
 const Routing = () => {
   return (
@@ -20,7 +21,7 @@ const Routing = () => {
             <Route path='/exams' element={<ExamsPage/>}/>
             <Route path='/scholarship'element={<ScholarshipPage/>}/>
             <Route path='/interest'element={<FindInterest/>}/>
-
+            <Route path='/chat' element={<ChatPage/>}/>
             <Route path='/admin/dashboard' element={<AdminDashboard/>} />
         </Routes>
     </Router>

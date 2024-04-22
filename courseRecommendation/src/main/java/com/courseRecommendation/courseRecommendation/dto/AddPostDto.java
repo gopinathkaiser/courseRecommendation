@@ -14,4 +14,5 @@ public class AddPostDto {
     private String title;
     private String caption;
     private String image;
+    private String email;
 }
