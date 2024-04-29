@@ -24,6 +24,7 @@ const SideBar = () => {
                 <p className='py-[0.8rem] cursor-pointer hover:bg-[#5C72EA] hover:text-white pl-[2rem]' style={{backgroundColor: loc==='exams' && '#5C72EA50'}} onClick={()=>navigate('/exams')}>Entrance Exam</p>
                 <p className='py-[0.8rem] cursor-pointer hover:bg-[#5C72EA] hover:text-white pl-[2rem]' style={{backgroundColor: loc==='interest' && '#5C72EA50'}} onClick={()=>navigate('/interest')}>Find your Interest</p>
                 <p className='py-[0.8rem] cursor-pointer hover:bg-[#5C72EA] hover:text-white pl-[2rem]' style={{backgroundColor: loc==='chat' && '#5C72EA50'}} onClick={()=>navigate('/chat')}>Community Chat</p>
+                <p className='py-[0.8rem] cursor-pointer hover:bg-[#5C72EA] hover:text-white pl-[2rem]' style={{backgroundColor: loc==='Questions' && '#5C72EA50'}} onClick={()=>navigate('/Questions')}>Questions</p>
             </div>
         </div>
 

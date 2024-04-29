@@ -37,7 +37,7 @@ const FindInterest = () => {
 
     const submit = async() => {
         try{
-            const resp = await httpClient.post('http://192.168.1.138:5000/pred/recommend',{
+            const resp = await httpClient.post('http://localhost:5000/pred/recommend',{
                 'tech': selectedOptions.tech,
                 'interest': selectedOptions.general,
                 'non_tech': selectedOptions.nonTech,
