@@ -30,7 +30,7 @@ const SideBar = () => {
 
         <div>
             <p className='pl-[2rem] flex items-center cursor-pointer'><span className='text-2xl mr-3'><FaUserCircle/></span>{username}</p>
-            <p className='pl-[2rem] mt-7 flex items-center cursor-pointer' onClick={()=>navigate('/')}><span className='text-2xl mr-3 opacity-70'><RiShutDownLine/></span>Log Out</p>
+            <p className='pl-[2rem] mt-7 flex items-center cursor-pointer' onClick={()=>{navigate('/');localStorage.setItem("name","")}}><span className='text-2xl mr-3 opacity-70'><RiShutDownLine/></span>Log Out</p>
         </div>
         
     </div>

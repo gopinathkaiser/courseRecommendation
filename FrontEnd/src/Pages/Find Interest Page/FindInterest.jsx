@@ -5,11 +5,11 @@ import { FaAngleDown } from "react-icons/fa6";
 import { technical_interests, non_technical_interests, interests, achievements } from './optionsList';
 import httpClient from '../../httpClient';
 import InterestOutput from './InterestOutput';
-
+import { useNavigate } from 'react-router-dom';
 const FindInterest = () => {
 
     const [page, setPage] = useState('selection');
-
+    const navigate = useNavigate();
     const [interestsList, setInterestsList] = useState([]);
 
     const [dropDown, setDropDown] = useState({
@@ -27,6 +27,11 @@ const FindInterest = () => {
     })
 
     useEffect(()=>{
+        const username = localStorage.getItem('name');
+        if(username === ''){
+            console.log(username);
+            navigate('/')
+        }
         setSelectedOptions({
             tech: '',
             nonTech: '',

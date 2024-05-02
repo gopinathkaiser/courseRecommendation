@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Layout from '../../Layout'
 import coursesList from './coursesList';
 import { useNavigate } from 'react-router-dom';
@@ -6,6 +6,14 @@ import { useNavigate } from 'react-router-dom';
 const CoursesPage = () => {
 
     const navigate = useNavigate();
+    useEffect(()=>{
+        const username = localStorage.getItem('name');
+        if(username === ''){
+            console.log(username);
+            navigate('/')
+        }
+        
+    },[])
 
   return (
    <Layout>

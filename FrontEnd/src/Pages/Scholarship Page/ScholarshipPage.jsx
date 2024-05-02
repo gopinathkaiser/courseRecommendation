@@ -1,12 +1,22 @@
 import React, { useEffect, useState } from 'react'
 import Layout from '../../Layout'
 import httpClient from '../../httpClient'
+import { useNavigate } from 'react-router-dom';
+
 
 const ScholarshipPage = () => {
 
     const [scholarship, setScholarship] = useState();
 
+    const navigate = useNavigate();
     useEffect(()=>{
+
+        const username = localStorage.getItem('name');
+        if(username === ''){
+            console.log(username);
+            navigate('/')
+        }
+
         const getScholarship = async() => {
             try{
                 const resp =await httpClient.get('/api/v1/scholarship');

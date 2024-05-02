@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import Layout from '../../Layout';
+import { useNavigate } from 'react-router-dom';
+
 
 const ChatPage = () => {
     const [messages, setMessages] = useState([]);
@@ -15,8 +17,14 @@ const ChatPage = () => {
             console.error('Failed to fetch messages:', error);
         }
     };
-
+    const navigate = useNavigate();
     useEffect(() => {
+        const username = localStorage.getItem('name');
+        if(username === ''){
+            console.log(username);
+            navigate('/')
+        }
+
         fetchMessages();
         const interval = setInterval(fetchMessages, 1000);
 

@@ -14,8 +14,13 @@ const FeedPage = () => {
   const navigate = useNavigate();
   useEffect(() => {
     const username = localStorage.getItem('name');
+    console.log(username);
     if(username === 'admin'){
       navigate('/admin/dashboard')
+    }
+    if(username === ''){
+      console.log(username);
+      navigate('/')
     }
     fetch('http://localhost:8080/api/v1/posts')
       .then(response => response.json())

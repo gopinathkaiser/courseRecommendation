@@ -19,6 +19,9 @@ const AdminDashboard = () => {
     if(username === 'admin'){
       navigate('/admin/dashboard')
     }
+    if(username === ''){
+      navigate('/')
+    }
     fetch('http://localhost:8080/api/v1/posts')
       .then(response => response.json())
       .then(data => setPosts(data.data))
