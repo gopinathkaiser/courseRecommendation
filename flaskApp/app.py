@@ -1,13 +1,9 @@
 from flask import Flask, request
 from flask import jsonify
 from flask_cors import CORS
-# from sklearn.ensemble import RandomForestRegressor
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.preprocessing import MultiLabelBinarizer
+from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.preprocessing import LabelEncoder
 import numpy as np
-import random
 import pandas as pd
 import warnings
 
@@ -40,29 +36,6 @@ app = Flask(__name__)
 CORS(app, origins="*")
 
 
-def get_combinations(data, current={}, key_index=0, results=[], limit=10000):
-    if len(results) >= limit:
-        return results
-
-    if key_index >= len(data):
-        results.append(current.copy())
-        return results
-
-    keys = list(data.keys())
-    random.shuffle(keys)  # Shuffle the keys randomly
-
-    for key in keys:
-        for item in data[key]:
-            current[key] = item
-            get_combinations(data, current, key_index + 1, results, limit)
-            if len(results) >= limit:
-                return results
-        current.pop(key, None)  # Backtrack
-
-    if key_index == 0:
-        return results
-
-
 @app.route('/pred/recommend',methods = ['POST'])
 def get_recommendation():
     body = request.get_json()
@@ -70,72 +43,99 @@ def get_recommendation():
         return failure_response(statuscode=400,content={'message': 'Data count mismatch'})
     try:
         warnings.filterwarnings('ignore')
-        
-        
-        # data = {
-        #     "technical_interests": [
-        #         'coding', 'problem solving', 'logical thinking', 'statistics', 'ux/ui',
-        #         'data analysis', 'machine learning', 'artificial intelligence', 'robotics', 'cybersecurity',
-        #         'networking', 'cloud computing', 'web development', 'mobile app development', 'game development',
-        #         'database management', 'software testing', 'algorithm design', 'mathematics', 'physics',
-        #         'chemistry', 'biology', 'electronics', 'mechanics', 'digital logic design', 'computer architecture',
-        #         'operating systems', 'data visualization', 'natural language processing', 'computer vision',
-        #         'big data', 'blockchain', 'IoT', 'AR/VR', '3D printing', 'quantum computing', 'bioinformatics',
-        #         'computational biology', 'geographic information systems', 'computational biology'
-        #     ],
-        #     'interests': [
-        #         'science', 'anatomy', 'psychology', 'media and communications', 'video editing',
-        #         'history', 'literature', 'writing', 'sociology', 'politics',
-        #         'music', 'art', 'photography', 'fashion', 'design',
-        #         'technology', 'gaming', 'sports', 'cooking', 'traveling',
-        #         'nature', 'animals', 'space', 'philosophy', 'culture',
-        #         'languages', 'education', 'health', 'fitness', 'finance',
-        #         'business', 'entrepreneurship', 'leadership', 'innovation', 'creativity',
-        #         'social media', 'volunteering', 'community service', 'human rights', 'environmental sustainability'
-        #     ],
-        #     'non_technical_interests': [
-        #         'mathematics', 'physics', 'chemistry', 'management', 'entrepreneurship',
-        #         'economics', 'law', 'medicine', 'geography', 'architecture',
-        #         'history', 'literature', 'writing', 'sociology', 'politics',
-        #         'music', 'art', 'photography', 'fashion', 'design',
-        #         'technology', 'gaming', 'sports', 'cooking', 'traveling',
-        #         'nature', 'animals', 'space', 'philosophy', 'culture',
-        #         'languages', 'education', 'health', 'fitness', 'finance',
-        #         'business', 'entrepreneurship', 'leadership', 'innovation', 'creativity'
-        #     ],
-        #     'achievements': [
-        #         'academic excellence', 'sports achievements', 'artistic accomplishments', 'leadership roles',
-        #         'community service awards',
-        #         'public speaking awards', 'scientific research awards', 'literary awards', 'musical achievements',
-        #         'entrepreneurial ventures',
-        #         'volunteer work', 'internship experiences', 'travel experiences', 'cultural exchange programs',
-        #         'hackathon wins',
-        #         'coding competition wins', 'robotics competition wins', 'mathematics competition wins',
-        #         'science fair awards',
-        #         'debate competition wins',
-        #         'writing competition wins', 'publications', 'exhibitions', 'performances', 'patents',
-        #         'certifications', 'scholarships', 'grants', 'awards', 'recognition',
-        #         'special projects', 'startups', 'business ventures', 'charity work', 'social initiatives',
-        #         'environmental initiatives', 'philanthropic work', 'fundraising efforts', 'community building',
-        #         'social media influence'
-        #     ],
-        #     'career': [1, 9, 3, 13, 38, 12, 19, 37, 32, 30, 21, 28, 18, 5, 29, 14, 2, 20, 36, 25, 11, 16, 39, 31, 10,
-        #                34, 23, 7, 17, 24, 40, 22, 26, 33, 4, 15, 27, 6, 35, 8]
+        data = {
+            "technical_interests": [
+                'coding', 'problem solving', 'logical thinking', 'statistics', 'ux/ui',
+                'data analysis', 'machine learning', 'artificial intelligence', 'robotics', 'cybersecurity',
+                'networking', 'cloud computing', 'web development', 'mobile app development', 'game development',
+                'database management', 'software testing', 'algorithm design', 'mathematics', 'physics',
+                'chemistry', 'biology', 'electronics', 'mechanics', 'digital logic design', 'computer architecture',
+                'operating systems', 'data visualization', 'natural language processing', 'computer vision',
+                'big data', 'blockchain', 'IoT', 'AR/VR', '3D printing', 'quantum computing', 'bioinformatics',
+                'computational biology', 'geographic information systems', 'computational biology'
+            ],
+            'interests': [
+                'science', 'anatomy', 'psychology', 'media and communications', 'video editing',
+                'history', 'literature', 'writing', 'sociology', 'politics',
+                'music', 'art', 'photography', 'fashion', 'design',
+                'technology', 'gaming', 'sports', 'cooking', 'traveling',
+                'nature', 'animals', 'space', 'philosophy', 'culture',
+                'languages', 'education', 'health', 'fitness', 'finance',
+                'business', 'entrepreneurship', 'leadership', 'innovation', 'creativity',
+                'social media', 'volunteering', 'community service', 'human rights', 'environmental sustainability'
+            ],
+            'non_technical_interests': [
+                'mathematics', 'physics', 'chemistry', 'management', 'entrepreneurship',
+                'economics', 'law', 'medicine', 'geography', 'architecture',
+                'history', 'literature', 'writing', 'sociology', 'politics',
+                'music', 'art', 'photography', 'fashion', 'design',
+                'technology', 'gaming', 'sports', 'cooking', 'traveling',
+                'nature', 'animals', 'space', 'philosophy', 'culture',
+                'languages', 'education', 'health', 'fitness', 'finance',
+                'business', 'entrepreneurship', 'leadership', 'innovation', 'creativity'
+            ],
+            'achievements': [
+                'academic excellence', 'sports achievements', 'artistic accomplishments', 'leadership roles',
+                'community service awards',
+                'public speaking awards', 'scientific research awards', 'literary awards', 'musical achievements',
+                'entrepreneurial ventures',
+                'volunteer work', 'internship experiences', 'travel experiences', 'cultural exchange programs',
+                'hackathon wins',
+                'coding competition wins', 'robotics competition wins', 'mathematics competition wins',
+                'science fair awards',
+                'debate competition wins',
+                'writing competition wins', 'publications', 'exhibitions', 'performances', 'patents',
+                'certifications', 'scholarships', 'grants', 'awards', 'recognition',
+                'special projects', 'startups', 'business ventures', 'charity work', 'social initiatives',
+                'environmental initiatives', 'philanthropic work', 'fundraising efforts', 'community building',
+                'social media influence'
+            ],
+            'career': [21, 9, 3, 13, 38, 12, 19, 37, 32, 30, 1, 28, 18, 5, 29, 14, 2, 20, 36, 25, 11, 16, 39, 31, 10,
+                       34, 23, 7, 17, 24, 40, 22, 26, 33, 4, 15, 27, 6, 35, 8]
+        }
+
+        # outcome = {
+        #     '1': 'Engineering (Various disciplines such as Computer Science, Mechanical, Electrical, etc.)',
+        #     '2': 'Medicine (MBBS, BDS, etc.)',
+        #     '3': 'Pharmacy (B.Pharma)',
+        #     '4': 'Commerce (B.Com, BBA, etc.)',
+        #     '5': 'Arts (BA, BFA, etc.)',
+        #     '6': 'Design (Fashion Design, Interior Design, etc.)',
+        #     '7': 'Law (LLB)',
+        #     '8': 'Hotel Management',
+        #     '9': 'Mass Communication (Journalism, Advertising, etc.)',
+        #     '10': 'Animation and Multimedia',
+        #     '11': 'Biotechnology',
+        #     '12': 'Agriculture and Allied Fields',
+        #     '13': 'Forensic Science',
+        #     '14': 'Environmental Science',
+        #     '15': 'Fine Arts (BFA, MFA, etc.)',
+        #     '16': 'Event Management',
+        #     '17': 'Digital Marketing',
+        #     '18': 'Human Resources Management',
+        #     '19': 'Fashion Technology',
+        #     '20': 'Culinary Arts',
+        #     '21': 'Travel and Tourism Management',
+        #     '22': 'Hospitality Management',
+        #     '23': 'Social Work',
+        #     '24': 'Psychology',
+        #     '25': 'Sociology',
+        #     '26': 'Political Science',
+        #     '27': 'History',
+        #     '28': 'Geography',
+        #     '29': 'Economics',
+        #     '30': 'English Literature',
+        #     '31': 'Foreign Languages',
+        #     '32': 'Physical Education',
+        #     '33': 'Library Science',
+        #     '34': 'Philosophy',
+        #     '35': 'Performing Arts (Drama, Dance, Music, etc.)',
+        #     '36': 'Public Relations',
+        #     '37': 'Healthcare Management',
+        #     '38': 'Nutrition and Dietetics',
+        #     '39': 'Sports Management',
+        #     '40': 'Defense Services (Army, Navy, Air Force)'
         # }
-        
-        
-        # data_without_career = {k: v for k, v in data.items() if k != 'career'}
-
-        # new_df = pd.read_csv('new_dataframe.csv')
-        # print(new_df.head())
-
-        # combinations = get_combinations(data_without_career)
-        # for combo in combinations:
-        #   combo['career'] = np.random.randint(40)
-        # #   # print(combo)
-        # combodf = pd.DataFrame(combinations)
-        # combodf.to_csv('new_dataframe.csv', index = False)
-
 
         outcome = {
              "1": {
@@ -765,9 +765,8 @@ def get_recommendation():
   }
 }
         
-        # df = pd.DataFrame(data)
-        df = pd.read_csv('new_dataframe.csv')
-        # print(df.head())
+
+        df = pd.DataFrame(data)
         label_encoder = LabelEncoder()
         df['technical_interests'] = label_encoder.fit_transform(df['technical_interests'])
         df['interests'] = label_encoder.fit_transform(df['interests'])
@@ -777,59 +776,36 @@ def get_recommendation():
         X = df.drop('career', axis=1)
         y = df['career']
 
-        rf_model = RandomForestClassifier()
+        rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
 
         # Train the model
         rf_model.fit(X, y)
+        tech = safe_label_encode(label_encoder, [body['technical_interests']])
+        interest = safe_label_encode(label_encoder, [body['interests']])
+        non_tech = safe_label_encode(label_encoder, [body['non_technical_interests']])
+        ach = safe_label_encode(label_encoder, [body['achievements']])
+        # print(tech , interest ,non_tech)
 
-        tech = safe_label_encode(label_encoder, [body['tech']])[0]
-        interest = safe_label_encode(label_encoder, [body['interest']])[0]
-        non_tech = safe_label_encode(label_encoder, [body['non_tech']])[0]
-        ach = safe_label_encode(label_encoder, [body['ach']])[0]
-        print([tech, interest, non_tech, ach])
-        pred = rf_model.predict([[tech, interest, non_tech, ach]])
-        print('pred',pred)
+        print(tech, interest, non_tech, ach)
+
+        # print(tech, interest, non_tech, ach)
+         pred = rf_model.predict([[tech[0], interest[0], non_tech[0], ach[0]]])
+
         choice = int(pred[0])
         content = {'recommend': [outcome[str(choice)],
                         outcome[str(choice-1)],
-                        outcome[str(choice + 1)]]}
+                        outcome[str(choice + 1)]]}   
 
-        # Add new line after each \n
+
+        content = {'recommend': [outcome[str(choice)], outcome[str(choice - 1)], outcome[str(choice + 1)]]}
+
+        print(content)
+
         # content['recommend'] = content['recommend'].replace('\n', '\n\n')
 
         return success_response(statuscode=200, content=content)
 
-
-#         df = pd.DataFrame(data)
-
-# # Encode categorical variable
-#         label_encoder = LabelEncoder()
-#         df['career'] = label_encoder.fit_transform(df['career'])
-
-#         # Train a classifier
-#         rf_classifier = RandomForestClassifier(n_estimators=100, random_state=42)
-#         rf_classifier.fit(df.drop('career', axis=1), df['career'])
-
-#         # Make predictions
-#         try:
-#           tech = label_encoder.transform(['coding'])[0]
-#           interest = label_encoder.transform(['science'])[0]
-#           non_tech = label_encoder.transform(['management'])[0]
-#           ach = label_encoder.transform(['academic excellence'])[0]
-
-#           pred = rf_classifier.predict([[tech, interest, non_tech, ach]])
-#           choice = int(pred[0])
-#           print(label_encoder.inverse_transform([choice]))
-#         except ValueError as e:
-#           print("Error:", e)
-
-#         pred = rf_classifier.predict([[tech, interest, non_tech, ach]])
-#         choice = int(pred[0])
-#         print(label_encoder.inverse_transform([choice]))
-#         return success_response(statuscode=200,Content={'message':choice})
-        # return success_response(statuscode=200, content = {'recommend': str(outcome[str(choice - 1)]) + ',\n' +
-        #                 str(outcome[str(choice)]) + ',\n' +
-        #                 str(outcome[str(choice + 1)])})
+        
     except Exception as e:
         return failure_response(statuscode=500, content={'message': str(e)})    
 
@@ -889,77 +865,7 @@ def getInteretsData():
 def getInterets():
     prediction = getInteretsData()
     return prediction
-    
-data = pd.read_csv('datas.csv')
-X = data.drop(columns=['Interest'])
-y = data['Interest']
-mlb = MultiLabelBinarizer()
-y_encoded = mlb.fit_transform(y.str.split(','))
-rf_classifier = RandomForestClassifier(n_estimators=100, random_state=80)
 
-# One-hot encode the input data
-encoder = OneHotEncoder(handle_unknown='ignore')
-X_encoded = encoder.fit_transform(X)
-
-# Train the model
-rf_classifier.fit(X_encoded, y_encoded)
-
-most_frequent_interest = y.mode().iloc[0]
-confidence_threshold = 0.5
-
-
-@app.route('/predict_interest', methods=['POST'])
-def predict_interest():
-    try:
-        # Get questions from the request body
-        questions = request.json
-        
-        # Convert questions into a DataFrame
-        questions_df = pd.DataFrame([questions])
-        
-        # One-hot encode the questions
-        questions_encoded = encoder.transform(questions_df)
-        
-        # Use the trained model to predict interests
-        y_pred = rf_classifier.predict(questions_encoded)
-        
-        # Decode the predictions
-        predicted_interests = mlb.inverse_transform(y_pred)
-        print(predicted_interests)
-        if len(predicted_interests[0]) == 0:
-            # For example, you can check the input for specific keywords or patterns
-            # and assign a relevant interest based on that
-            # analysed_interest = 
-            analysed_interest = analyse_input(questions)
-            predicted_interests = [[analysed_interest]]
-        print(predicted_interests)
-        # Return the predicted interests as a response
-        return jsonify({'predicted_interests': predicted_interests}), 200
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
-
-def analyse_input(questions):
-    # Convert the input to lowercase for case-insensitive matching
-    input_text = questions.get('text', '').lower()
-
-    # Define keywords and corresponding interests
-    keyword_interest_mapping = {
-        'math': 'Mathematics',
-        'science': 'Science',
-        'history': 'History',
-        'art': 'Art',
-        'programming': 'Programming',
-        'sports': 'Sports',
-        'music': 'Music'
-    }
-
-    # Check if any keyword is present in the input
-    for keyword, interest in keyword_interest_mapping.items():
-        if keyword in input_text:
-            return interest
-
-    # If no keyword is found, return a default interest
-    return 'Business'
 
 if __name__=='__main__':
     app.run(host = '0.0.0.0',debug=True)
