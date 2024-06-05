@@ -1,0 +1,422 @@
+[
+    {
+        "name": "Indian Institute of Management Ahmedabad",
+        "city": "Ahmedabad",
+        "rank": 1,
+        "state": "Gujarat",
+        "website": "https://www.iima.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Management Bangalore",
+        "city": "Bengaluru",
+        "rank": 2,
+        "state": "Karnataka",
+        "website": "https://www.iimb.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Management Calcutta",
+        "city": "Kolkata",
+        "rank": 3,
+        "state": "West Bengal",
+        "website": "https://www.iimcal.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology, Delhi",
+        "city": "New Delhi",
+        "rank": 4,
+        "state": "Delhi",
+        "website": "https://home.iitd.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Management Kozhikode",
+        "city": "Kozhikode",
+        "rank": 5,
+        "state": "Kerala",
+        "website": "https://www.iimk.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Management Lucknow",
+        "city": "Lucknow",
+        "rank": 6,
+        "state": "Uttar Pradesh",
+        "website": "https://www.iiml.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Management Indore",
+        "city": "Indore",
+        "rank": 7,
+        "state": "Madhya Pradesh",
+        "website": "https://www.iimidr.ac.in/"
+    },
+    {
+        "name": "XLRI - Xavier School of Management",
+        "city": "Jamshedpur",
+        "rank": 8,
+        "state": "Jharkhand",
+        "website": "https://www.xlri.ac.in/"
+    },
+    {
+        "name": "National Institute of Industrial Engineering, Mumbai",
+        "city": "Mumbai",
+        "rank": 9,
+        "state": "Maharashtra",
+        "website": "https://www.niie.edu.in/"
+    },
+    {
+        "name": "Indian Institute of Technology Madras",
+        "city": "Chennai",
+        "rank": 10,
+        "state": "Tamil Nadu",
+        "website": "https://www.iitm.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology, Bombay",
+        "city": "Mumbai",
+        "rank": 11,
+        "state": "Maharashtra",
+        "website": "https://www.iitb.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology, Kharagpur",
+        "city": "Kharagpur",
+        "rank": 12,
+        "state": "West Bengal",
+        "website": "http://www.iitkgp.ac.in/"
+    },
+    {
+        "name": "Management Development Institute",
+        "city": "Gurugram",
+        "rank": 13,
+        "state": "Haryana",
+        "website": "https://www.mdi.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Management Raipur",
+        "city": "Raipur",
+        "rank": 14,
+        "state": "Chhattisgarh",
+        "website": "https://www.iimraipur.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Management Ranchi",
+        "city": "Ranchi",
+        "rank": 15,
+        "state": "Jharkhand",
+        "website": "https://www.iimranchi.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Management Rohtak",
+        "city": "Rohtak",
+        "rank": 16,
+        "state": "Haryana",
+        "website": "https://www.iimrohtak.ac.in/"
+    },
+    {
+        "name": "Symbiosis Institute of Business Management",
+        "city": "Pune",
+        "rank": 17,
+        "state": "Maharashtra",
+        "website": "https://www.sibm.edu/"
+    },
+    {
+        "name": "Indian Institute of Management Tiruchirappalli",
+        "city": "Tiruchirappalli",
+        "rank": 18,
+        "state": "Tamil Nadu",
+        "website": "https://www.iimtrichy.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology, Roorkee",
+        "city": "Roorkee",
+        "rank": 19,
+        "state": "Uttarakhand",
+        "website": "https://www.iitr.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology Kanpur",
+        "city": "Kanpur",
+        "rank": 20,
+        "state": "Uttar Pradesh",
+        "website": "https://www.iitk.ac.in/"
+    },
+    {
+        "name": "S. P. Jain Institute of Management & Research",
+        "city": "Mumbai",
+        "rank": 21,
+        "state": "Maharashtra",
+        "website": "https://www.spjimr.org/"
+    },
+    {
+        "name": "Indian Institute of Management Udaipur",
+        "city": "Udaipur",
+        "rank": 22,
+        "state": "Rajasthan",
+        "website": "https://www.iimu.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Management Kashipur",
+        "city": "Kashipur",
+        "rank": 23,
+        "state": "Uttarakhand",
+        "website": "https://www.iimkashipur.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Foreign Trade",
+        "city": "New Delhi",
+        "rank": 24,
+        "state": "Delhi",
+        "website": "https://www.iift.edu/"
+    },
+    {
+        "name": "SVKM`s Narsee Monjee Institute of Management Studies",
+        "city": "Mumbai",
+        "rank": 25,
+        "state": "Maharashtra",
+        "website": "https://www.nmims.edu/"
+    },
+    {
+        "name": "Indian Institute of Management Shillong",
+        "city": "Shillong",
+        "rank": 26,
+        "state": "Meghalaya",
+        "website": "https://www.iimshillong.ac.in/"
+    },
+    {
+        "name": "Amrita Vishwa Vidyapeetham",
+        "city": "Coimbatore",
+        "rank": 27,
+        "state": "Tamil Nadu",
+        "website": "https://www.amrita.edu/"
+    },
+    {
+        "name": "Amity University",
+        "city": "Gautam Budh Nagar",
+        "rank": 28,
+        "state": "Uttar Pradesh",
+        "website": "https://www.amity.edu/"
+    },
+    {
+        "name": "Jamia Millia Islamia, New Delhi",
+        "city": "New Delhi",
+        "rank": 29,
+        "state": "Delhi",
+        "website": "https://www.jmi.ac.in/"
+    },
+    {
+        "name": "International Management Institute",
+        "city": "New Delhi",
+        "rank": 30,
+        "state": "Delhi",
+        "website": "https://www.imi.edu/"
+    },
+    {
+        "name": "Great Lakes Institute of Management",
+        "city": "Chennai",
+        "rank": 31,
+        "state": "Tamil Nadu",
+        "website": "https://www.greatlakes.edu.in/"
+    },
+    {
+        "name": "ICFAI Foundation for Higher Education, Hyderabad",
+        "city": "Hyderabad",
+        "rank": 32,
+        "state": "Telangana",
+        "website": "https://www.ifheindia.org/"
+    },
+    {
+        "name": "Indian Institute of Management Visakhapatnam",
+        "city": "Visakhapatnam",
+        "rank": 33,
+        "state": "Andhra Pradesh",
+        "website": "https://www.iimv.ac.in/"
+    },
+    {
+        "name": "Lovely Professional University",
+        "city": "Phagwara",
+        "rank": 34,
+        "state": "Punjab",
+        "website": "https://www.lpu.in/"
+    },
+    {
+        "name": "XIM University",
+        "city": "Bhubaneswar",
+        "rank": 35,
+        "state": "Odisha",
+        "website": "https://www.xim.edu.in/"
+    },
+    {
+        "name": "GOA Institute of Management",
+        "city": "Sanquelim",
+        "rank": 36,
+        "state": "Goa",
+        "website": "https://www.gim.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Management Jammu (IIMJ) ",
+        "city": "Jammu",
+        "rank": 37,
+        "state": "Jammu and Kashmir",
+        "website": "https://www.iimjammu.ac.in/"
+    },
+    {
+        "name": "T. A. Pai Management Institute Manipal",
+        "city": "Manipal",
+        "rank": 38,
+        "state": "Karnataka",
+        "website": "https://www.tapmi.edu.in/"
+    },
+    {
+        "name": "National Institute of Technology, Tiruchirappalli",
+        "city": "Tiruchirappalli",
+        "rank": 39,
+        "state": "Tamil Nadu",
+        "website": "https://www.nitt.edu/"
+    },
+    {
+        "name": "Chandigarh University",
+        "city": "Mohali",
+        "rank": 40,
+        "state": "Punjab",
+        "website": "https://www.cuchd.in/"
+    },
+    {
+        "name": "University of Petroleum and Energy Studies",
+        "city": "Dehradun",
+        "rank": 41,
+        "state": "Uttarakhand",
+        "website": "https://www.upes.ac.in/"
+    },
+    {
+        "name": "MICA",
+        "city": "Ahmedabad",
+        "rank": 42,
+        "state": "Gujarat",
+        "website": "https://www.mica.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Management",
+        "city": "Nagpur",
+        "rank": 43,
+        "state": "Maharashtra",
+        "website": "https://www.iimnagpur.ac.in/"
+    },
+    {
+        "name": "Institute of Management Technology, Ghaziabad",
+        "city": "Ghaziabad",
+        "rank": 44,
+        "state": "Uttar Pradesh",
+        "website": "https://www.imt.edu/"
+    },
+    {
+        "name": "Nirma University",
+        "city": "Ahmedabad",
+        "rank": 45,
+        "state": "Gujarat",
+        "website": "https://www.nirmauni.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology (Indian School of Mines)",
+        "city": "Dhanbad",
+        "rank": 46,
+        "state": "Jharkhand",
+        "website": "https://www.iitism.ac.in/"
+    },
+    {
+        "name": "Koneru Lakshmaiah Education Foundation University (K L College of Engineering)",
+        "city": "Vaddeswaram",
+        "rank": 47,
+        "state": "Andhra Pradesh",
+        "website": "https://www.kluniversity.in/"
+    },
+    {
+        "name": "Kalinga Institute of Industrial Technology",
+        "city": "Bhubaneswar",
+        "rank": 48,
+        "state": "Odisha",
+        "website": "https://www.kiit.ac.in/"
+    },
+    {
+        "name": "Anna University",
+        "city": "Chennai",
+        "rank": 49,
+        "state": "Tamil Nadu",
+        "website": "https://www.annauniv.edu/"
+    },
+    {
+        "name": "Banaras Hindu University",
+        "city": "Varanasi",
+        "rank": 50,
+        "state": "Uttar Pradesh",
+        "website": "https://www.bhu.ac.in/"
+    },
+    {
+        "name": "Jaipuria Institute of Management",
+        "city": "Noida",
+        "rank": 51,
+        "state": "Uttar Pradesh",
+        "website": "https://www.jaipuria.edu.in/"
+    },
+    {
+        "name": "Great Lakes Institute of Management,Gurgaon",
+        "city": "Gurgaon",
+        "rank": 52,
+        "state": "Haryana",
+        "website": "https://www.greatlakesgurgaon.ac.in/"
+    },
+    {
+        "name": "Thapar Institute of Engineering and Technology",
+        "city": "Patiala",
+        "rank": 53,
+        "state": "Punjab",
+        "website": "https://www.thapar.edu/"
+    },
+    {
+        "name": "BML Munjal University",
+        "city": "Gurgaon",
+        "rank": 54,
+        "state": "Haryana",
+        "website": "https://www.bml.edu.in/"
+    },
+    {
+        "name": "Indian Institute of Management, Amritsar",
+        "city": "Amritsar",
+        "rank": 55,
+        "state": "Punjab",
+        "website": "https://www.iimamritsar.ac.in/"
+    },
+    {
+        "name": "Birla Institute of Management Technology",
+        "city": "Greater Noida",
+        "rank": 56,
+        "state": "Uttar Pradesh",
+        "website": "https://www.bimtech.ac.in/"
+    },
+    {
+        "name": "Aligarh Muslim University",
+        "city": "Aligarh",
+        "rank": 57,
+        "state": "Uttar Pradesh",
+        "website": "https://www.amu.ac.in/"
+    },
+    {
+        "name": "Institute of Rural Management Anand",
+        "city": "Anand",
+        "rank": 58,
+        "state": "Gujarat",
+        "website": "https://www.irma.ac.in/"
+    },
+    {
+        "name": "Intenational Management Institute, Kolkata",
+        "city": "Kolkata",
+        "rank": 59,
+        "state": "West Bengal",
+        "website": "https://www.imi-k.edu.in/"
+    },
+    {
+        "name": "Fore School of Management",
+        "city": "New Delhi",
+        "rank": 60,
+        "state": "Delhi",
+        "website": "https://www.fsm.ac.in/"
+    }
+]

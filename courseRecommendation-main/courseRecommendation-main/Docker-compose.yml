@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  spring-boot-app:
+    image: <your-spring-boot-image>
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgresql
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgresql:5432/dbname
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: password
+
+  sqlalchemy-app:
+    image: <your-sqlalchemy-image>
+    depends_on:
+      - postgresql
+    environment:
+      DB_URL: postgresql://postgres:password@postgresql/dbname
+
+  postgresql:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: dbname
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"

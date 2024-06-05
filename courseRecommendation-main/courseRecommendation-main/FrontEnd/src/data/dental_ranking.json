@@ -1,0 +1,282 @@
+[
+    {
+        "name": "Saveetha Institute of Medical and Technical Sciences",
+        "city": "Chennai",
+        "rank": 1,
+        "state": "Tamil Nadu",
+        "website": "https://www.saveetha.com/"
+    },
+    {
+        "name": "Manipal College of Dental Sciences, Manipal",
+        "city": "Udupi",
+        "rank": 2,
+        "state": "Karnataka",
+        "website": "https://manipal.edu/mcods-manipal.html"
+    },
+    {
+        "name": "Dr. D. Y. Patil Vidyapeeth",
+        "city": "Pune",
+        "rank": 3,
+        "state": "Maharashtra",
+        "website": "https://www.dpu.edu.in/"
+    },
+    {
+        "name": "Maulana Azad Institute of Dental Sciences",
+        "city": "Delhi",
+        "rank": 4,
+        "state": "Delhi",
+        "website": "http://www.maids.ac.in/"
+    },
+    {
+        "name": "King George`s Medical University",
+        "city": "Lucknow",
+        "rank": 5,
+        "state": "Uttar Pradesh",
+        "website": "http://kgmu.org/"
+    },
+    {
+        "name": "A.B.Shetty Memorial Institute of Dental Sciences",
+        "city": "Mangaluru",
+        "rank": 6,
+        "state": "Karnataka",
+        "website": "https://absmids.com/"
+    },
+    {
+        "name": "Manipal College of Dental Sciences, Mangalore",
+        "city": "Mangalore",
+        "rank": 7,
+        "state": "Karnataka",
+        "website": "https://manipal.edu/mcods-mangalore.html"
+    },
+    {
+        "name": "SRM Dental College",
+        "city": "Chennai",
+        "rank": 8,
+        "state": "Tamil Nadu",
+        "website": "https://www.srmuniv.ac.in/"
+    },
+    {
+        "name": "Govt. Dental College, Nagpur",
+        "city": "Nagpur",
+        "rank": 9,
+        "state": "Maharashtra",
+        "website": "https://gdcmaharashtra.gov.in/"
+    },
+    {
+        "name": "Siksha `O` Anusandhan",
+        "city": "Bhubaneswar",
+        "rank": 10,
+        "state": "Odisha",
+        "website": "https://www.soa.ac.in/"
+    },
+    {
+        "name": "Datta Meghe Institute of Medical Sciences",
+        "city": "Wardha",
+        "rank": 11,
+        "state": "Maharashtra",
+        "website": "https://www.dmimsu.edu.in/"
+    },
+    {
+        "name": "JSS Dental College and Hospital",
+        "city": "Mysuru",
+        "rank": 12,
+        "state": "Karnataka",
+        "website": "https://www.jssuni.edu.in/"
+    },
+    {
+        "name": "Sri Ramachandra Institute of Higher Education and Research",
+        "city": "Chennai",
+        "rank": 13,
+        "state": "Tamil Nadu",
+        "website": "https://www.sriramachandra.edu.in/"
+    },
+    {
+        "name": "M.S. Ramaiah University of Applied Sciences",
+        "city": "Bangalore",
+        "rank": 14,
+        "state": "Karnataka",
+        "website": "https://www.msruas.ac.in/"
+    },
+    {
+        "name": "Postgraduate Institute of Dental Sciences",
+        "city": "Rohtak",
+        "rank": 15,
+        "state": "Haryana",
+        "website": "http://www.pgids.org/"
+    },
+    {
+        "name": "Jamia Millia Islamia, New Delhi",
+        "city": "New Delhi",
+        "rank": 16,
+        "state": "Delhi",
+        "website": "https://www.jmi.ac.in/"
+    },
+    {
+        "name": "Nair Hospital Dental College",
+        "city": "Mumbai",
+        "rank": 17,
+        "state": "Maharashtra",
+        "website": "https://gmcjjh.org/"
+    },
+    {
+        "name": "Government Dental College, Bangalore",
+        "city": "Bangalore",
+        "rank": 18,
+        "state": "Karnataka",
+        "website": "https://gdc.edu.in/"
+    },
+    {
+        "name": "Amrita Vishwa Vidyapeetham",
+        "city": "Coimbatore",
+        "rank": 19,
+        "state": "Tamil Nadu",
+        "website": "https://www.amrita.edu/"
+    },
+    {
+        "name": "SDM College of Dental Sciences & Hospital",
+        "city": "Dharwad",
+        "rank": 20,
+        "state": "Karnataka",
+        "website": "https://www.sdmcds.org/"
+    },
+    {
+        "name": "Banaras Hindu University",
+        "city": "Varanasi",
+        "rank": 21,
+        "state": "Uttar Pradesh",
+        "website": "https://www.bhu.ac.in/"
+    },
+    {
+        "name": "Meenakshi Academy of Higher Education and Research",
+        "city": "Chennai",
+        "rank": 22,
+        "state": "Tamil Nadu",
+        "website": "https://www.maher.ac.in/"
+    },
+    {
+        "name": "Yenepoya Dental College",
+        "city": "Mangaluru",
+        "rank": 23,
+        "state": "Karnataka",
+        "website": "https://yenepoya.edu.in/"
+    },
+    {
+        "name": "Vishnu Dental College, Bheemavaram",
+        "city": "Bhimavaram",
+        "rank": 24,
+        "state": "Andhra Pradesh",
+        "website": "https://vdc.edu.in/"
+    },
+    {
+        "name": "Dr. M. G. R. Educational and Research Institute",
+        "city": "Chennai",
+        "rank": 25,
+        "state": "Tamil Nadu",
+        "website": "https://www.drmgrdu.ac.in/"
+    },
+    {
+        "name": "Kalinga Institute of Industrial Technology",
+        "city": "Bhubaneswar",
+        "rank": 26,
+        "state": "Odisha",
+        "website": "https://www.kiit.ac.in/"
+    },
+    {
+        "name": "Chettinad Dental College and Research Institute ",
+        "city": "Kelambakkam",
+        "rank": 27,
+        "state": "Tamil Nadu",
+        "website": "https://chettinadhealthcity.com/"
+    },
+    {
+        "name": "K L E Society's Institute of Dental Sciences",
+        "city": "Bengaluru",
+        "rank": 28,
+        "state": "Karnataka",
+        "website": "https://www.kleids.edu.in/"
+    },
+    {
+        "name": "Sree Balaji Dental College & Hospital",
+        "city": "Chennai",
+        "rank": 29,
+        "state": "Tamil Nadu",
+        "website": "https://www.sbdch.ac.in/"
+    },
+    {
+        "name": "Government Dental College",
+        "city": "Thiruvananthapuram",
+        "rank": 30,
+        "state": "Kerala",
+        "website": "https://www.govtdentalcollegetvm.com/"
+    },
+    {
+        "name": "Karnavati University",
+        "city": "Gandhinagar",
+        "rank": 31,
+        "state": "Gujarat",
+        "website": "https://www.karnavatiuniversity.com/"
+    },
+    {
+        "name": "Ragas Dental College & Hospital, Chennai",
+        "city": "Chennai",
+        "rank": 32,
+        "state": "Tamil Nadu",
+        "website": "https://www.rdc.ac.in/"
+    },
+    {
+        "name": "Gitam Dental College & Hospital",
+        "city": "Vishakhapatnam",
+        "rank": 33,
+        "state": "Andhra Pradesh",
+        "website": "https://www.gitam.edu/"
+    },
+    {
+        "name": "Raja Rajeswari Dental College & Hospital",
+        "city": "Bengaluru",
+        "rank": 34,
+        "state": "Karnataka",
+        "website": "https://www.rrdch.org/"
+    },
+    {
+        "name": "MGM Dental College and Hospital, Navi Mumbai",
+        "city": "Navi Mumbai",
+        "rank": 35,
+        "state": "Maharashtra",
+        "website": "https://www.mgmuhs.com/"
+    },
+    {
+        "name": "Government Dental College",
+        "city": "Ahmedabad",
+        "rank": 36,
+        "state": "Gujarat",
+        "website": "https://www.gdcah.org/"
+    },
+    {
+        "name": "MGVs Karmaveer Bhausaheb Hire Dental College, Nashik",
+        "city": "Nashik",
+        "rank": 37,
+        "state": "Maharashtra",
+        "website": "https://www.mgvkbhdc.edu.in/"
+    },
+    {
+        "name": "Aligarh Muslim University",
+        "city": "Aligarh",
+        "rank": 38,
+        "state": "Uttar Pradesh",
+        "website": "https://www.amu.ac.in/"
+    },
+    {
+        "name": "Govt. Dental College, Indore",
+        "city": "Indore",
+        "rank": 39,
+        "state": "Madhya Pradesh",
+        "website": "https://www.gdconline.in/"
+    },
+    {
+        "name": "Guru nanak Institute of Dental Sciences & Research",
+        "city": "Kolkata",
+        "rank": 40,
+        "state": "West Bengal",
+        "website": "https://www.gnidsr.edu.in/"
+    }
+]

@@ -1,0 +1,352 @@
+[
+    {
+        "name": "Indian Institute of ScienceMore Details",
+        "city": "Bengaluru",
+        "rank": 1,
+        "state": "Karnataka",
+        "website": "https://www.iisc.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology MadrasMore Details",
+        "city": "Chennai",
+        "rank": 2,
+        "state": "Tamil Nadu",
+        "website": "https://www.iitm.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology, DelhiMore Details",
+        "city": "New Delhi",
+        "rank": 3,
+        "state": "Delhi",
+        "website": "https://home.iitd.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology, BombayMore Details",
+        "city": "Mumbai",
+        "rank": 4,
+        "state": "Maharashtra",
+        "website": "https://www.iitb.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology, KharagpurMore Details",
+        "city": "Kharagpur",
+        "rank": 5,
+        "state": "West Bengal",
+        "website": "https://www.iitkgp.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology KanpurMore Details",
+        "city": "Kanpur",
+        "rank": 6,
+        "state": "Uttar Pradesh",
+        "website": "https://www.iitk.ac.in/"
+    },
+    {
+        "name": "Tata Institute of Fundamental ResearchMore Details",
+        "city": "Mumbai",
+        "rank": 7,
+        "state": "Maharashtra",
+        "website": "https://www.tifr.res.in/"
+    },
+    {
+        "name": "Indian Institute of Technology, RoorkeeMore Details",
+        "city": "Roorkee",
+        "rank": 8,
+        "state": "Uttarakhand",
+        "website": "https://www.iitr.ac.in/"
+    },
+    {
+        "name": "All India Institute of Medical Sciences, DelhiMore Details",
+        "city": "New Delhi",
+        "rank": 9,
+        "state": "Delhi",
+        "website": "https://www.aiims.edu/en.html"
+    },
+    {
+        "name": "Vellore Institute of TechnologyMore Details",
+        "city": "Vellore",
+        "rank": 10,
+        "state": "Tamil Nadu",
+        "website": "https://www.vit.ac.in/"
+    },
+    {
+        "name": "Homi Bhabha National InstituteMore Details",
+        "city": "Mumbai",
+        "rank": 11,
+        "state": "Maharashtra",
+        "website": "https://www.hbni.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology HyderabadMore Details",
+        "city": "Hyderabad",
+        "rank": 12,
+        "state": "Telangana",
+        "website": "https://www.iith.ac.in/"
+    },
+    {
+        "name": "Jadavpur UniversityMore Details",
+        "city": "Kolkata",
+        "rank": 13,
+        "state": "West Bengal",
+        "website": "https://www.jaduniv.edu.in/"
+    },
+    {
+        "name": "Jawaharlal Nehru UniversityMore Details",
+        "city": "New Delhi",
+        "rank": 14,
+        "state": "Delhi",
+        "website": "https://www.jnu.ac.in/main/"
+    },
+    {
+        "name": "Banaras Hindu UniversityMore Details",
+        "city": "Varanasi",
+        "rank": 15,
+        "state": "Uttar Pradesh",
+        "website": "https://www.bhu.ac.in/"
+    },
+    {
+        "name": "University of DelhiMore Details",
+        "city": "Delhi",
+        "rank": 16,
+        "state": "Delhi",
+        "website": "https://www.du.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Science Education & Research, PuneMore Details",
+        "city": "Pune",
+        "rank": 17,
+        "state": "Maharashtra",
+        "website": "https://www.iiserpune.ac.in/"
+    },
+    {
+        "name": "Academy of Scientific & Innovative ResearchMore Details",
+        "city": "Ghaziabad",
+        "rank": 18,
+        "state": "Uttar Pradesh",
+        "website": "https://www.acsir.res.in/"
+    },
+    {
+        "name": "Jamia Millia Islamia, New DelhiMore Details",
+        "city": "New Delhi",
+        "rank": 19,
+        "state": "Delhi",
+        "website": "https://www.jmi.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology (Indian School of Mines)More Details",
+        "city": "Dhanbad",
+        "rank": 20,
+        "state": "Jharkhand",
+        "website": "https://www.iitism.ac.in/"
+    },
+    {
+        "name": "Anna UniversityMore Details",
+        "city": "Chennai",
+        "rank": 21,
+        "state": "Tamil Nadu",
+        "website": "https://www.annauniv.edu/"
+    },
+    {
+        "name": "Bharathiar UniversityMore Details",
+        "city": "Coimbatore",
+        "rank": 22,
+        "state": "Tamil Nadu",
+        "website": "https://www.b-u.ac.in/"
+    },
+    {
+        "name": "National Institute of Technology, TiruchirappalliMore Details",
+        "city": "Tiruchirappalli",
+        "rank": 23,
+        "state": "Tamil Nadu",
+        "website": "https://www.nitt.edu/"
+    },
+    {
+        "name": "National Institute of Technology RourkelaMore Details",
+        "city": "Rourkela",
+        "rank": 24,
+        "state": "Odisha",
+        "website": "https://www.nitrkl.ac.in/"
+    },
+    {
+        "name": "Institute of Chemical TechnologyMore Details",
+        "city": "Mumbai",
+        "rank": 25,
+        "state": "Maharashtra",
+        "website": "https://www.ictmumbai.edu.in/"
+    },
+    {
+        "name": "Indian Institute of Technology IndoreMore Details",
+        "city": "Indore",
+        "rank": 26,
+        "state": "Madhya Pradesh",
+        "website": "https://www.iiti.ac.in/"
+    },
+    {
+        "name": "University of HyderabadMore Details",
+        "city": "Hyderabad",
+        "rank": 27,
+        "state": "Telangana",
+        "website": "https://www.uohyd.ac.in/"
+    },
+    {
+        "name": "Aligarh Muslim UniversityMore Details",
+        "city": "Aligarh",
+        "rank": 28,
+        "state": "Uttar Pradesh",
+        "website": "https://www.amu.ac.in/"
+    },
+    {
+        "name": "Panjab UniversityMore Details",
+        "city": "Chandigarh",
+        "rank": 29,
+        "state": "Chandigarh",
+        "website": "https://www.puchd.ac.in/"
+    },
+    {
+        "name": "Manipal Academy of Higher Education, ManipalMore Details",
+        "city": "Manipal",
+        "rank": 30,
+        "state": "Karnataka",
+        "website": "https://www.manipal.edu/"
+    },
+    {
+        "name": "Amrita Vishwa VidyapeethamMore Details",
+        "city": "Coimbatore",
+        "rank": 31,
+        "state": "Tamil Nadu",
+        "website": "https://www.amrita.edu/"
+    },
+    {
+        "name": "Indian Institute of Science Education & Research, KolkataMore Details",
+        "city": "Mohanpur",
+        "rank": 32,
+        "state": "West Bengal",
+        "website": "https://www.iiserkol.ac.in/"
+    },
+    {
+        "name": "Birla Institute of Technology & Science - PilaniMore Details",
+        "city": "Pilani",
+        "rank": 33,
+        "state": "Rajasthan",
+        "website": "https://www.bits-pilani.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology, GandhinagarMore Details",
+        "city": "Gandhinagar",
+        "rank": 34,
+        "state": "Gujarat",
+        "website": "https://www.iitgn.ac.in/"
+    },
+    {
+        "name": "Thapar Institute of Engineering and TechnologyMore Details",
+        "city": "Patiala",
+        "rank": 35,
+        "state": "Punjab",
+        "website": "https://www.thapar.edu/"
+    },
+    {
+        "name": "S.R.M. Institute of Science and TechnologyMore Details",
+        "city": "Chennai",
+        "rank": 36,
+        "state": "Tamil Nadu",
+        "website": "https://www.srmist.edu.in/"
+    },
+    {
+        "name": "Indian Institute of Technology BhubaneswarMore Details",
+        "city": "Bhubaneswar",
+        "rank": 37,
+        "state": "Odisha",
+        "website": "https://www.iitbbs.ac.in/"
+    },
+    {
+        "name": "Amity UniversityMore Details",
+        "city": "Gautam Budh Nagar",
+        "rank": 38,
+        "state": "Uttar Pradesh",
+        "website": "https://www.amity.edu/"
+    },
+    {
+        "name": "Indian Institute of Technology, MandiMore Details",
+        "city": "Mandi",
+        "rank": 39,
+        "state": "Himachal Pradesh",
+        "website": "https://www.iitmandi.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Engineering Science and Technology, ShibpurMore Details",
+        "city": "Howrah",
+        "rank": 40,
+        "state": "West Bengal",
+        "website": "https://www.iiests.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology, PatnaMore Details",
+        "city": "Patna",
+        "rank": 41,
+        "state": "Bihar",
+        "website": "https://www.iitp.ac.in/"
+    },
+    {
+        "name": "National Institute of Mental Health & Neuro Sciences, BangaloreMore Details",
+        "city": "Bangalore",
+        "rank": 42,
+        "state": "Karnataka",
+        "website": "https://www.nimhans.ac.in/"
+    },
+    {
+        "name": "Alagappa UniversityMore Details",
+        "city": "Karaikudi",
+        "rank": 43,
+        "state": "Tamil Nadu",
+        "website": "https://www.alagappauniversity.ac.in/"
+    },
+    {
+        "name": "Shanmugha Arts Science Technology & Research AcademyMore Details",
+        "city": "Thanjavur",
+        "rank": 44,
+        "state": "Tamil Nadu",
+        "website": "https://www.sastra.edu/"
+    },
+    {
+        "name": "Siksha `O` AnusandhanMore Details",
+        "city": "Bhubaneswar",
+        "rank": 45,
+        "state": "Odisha",
+        "website": "https://www.soa.ac.in/"
+    },
+    {
+        "name": "Malaviya National Institute of TechnologyMore Details",
+        "city": "Jaipur",
+        "rank": 46,
+        "state": "Rajasthan",
+        "website": "https://www.mnit.ac.in/"
+    },
+    {
+        "name": "Kalinga Institute of Industrial TechnologyMore Details",
+        "city": "Bhubaneswar",
+        "rank": 47,
+        "state": "Odisha",
+        "website": "https://www.kiit.ac.in/"
+    },
+    {
+        "name": "Saveetha Institute of Medical and Technical SciencesMore Details",
+        "city": "Chennai",
+        "rank": 48,
+        "state": "Tamil Nadu",
+        "website": "https://www.saveetha.com/"
+    },
+    {
+        "name": "Indian Institute of Science Education & Research BhopalMore Details",
+        "city": "Bhopal",
+        "rank": 49,
+        "state": "Madhya Pradesh",
+        "website": "https://www.iiserb.ac.in/"
+    },
+    {
+        "name": "National Institute of Technology, SilcharMore Details",
+        "city": "Silchar",
+        "rank": 50,
+        "state": "Assam",
+        "website": "https://www.nits.ac.in/"
+    }
+]

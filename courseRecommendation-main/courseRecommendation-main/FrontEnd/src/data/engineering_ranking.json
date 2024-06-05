@@ -1,0 +1,704 @@
+[
+    {
+        "name": "Indian Institute of Technology Madras",
+        "city": "Chennai",
+        "rank": 1,
+        "state": "Tamil Nadu",
+        "website": "https://www.iitm.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology, Delhi",
+        "city": "New Delhi",
+        "rank": 2,
+        "state": "Delhi",
+        "website": "https://home.iitd.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology, Bombay",
+        "city": "Mumbai",
+        "rank": 3,
+        "state": "Maharashtra",
+        "website": "https://www.iitb.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology Kanpur",
+        "city": "Kanpur",
+        "rank": 4,
+        "state": "Uttar Pradesh",
+        "website": "https://www.iitk.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology, Kharagpur",
+        "city": "Kharagpur",
+        "rank": 5,
+        "state": "West Bengal",
+        "website": "https://www.iitkgp.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology, Roorkee",
+        "city": "Roorkee",
+        "rank": 6,
+        "state": "Uttarakhand",
+        "website": "https://www.iitr.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology Guwahati",
+        "city": "Guwahati",
+        "rank": 7,
+        "state": "Assam",
+        "website": "https://www.iitg.ac.in/"
+    },
+    {
+        "name": "National Institute of Technology, Tiruchirappalli",
+        "city": "Tiruchirappalli",
+        "rank": 8,
+        "state": "Tamil Nadu",
+        "website": "https://www.nitt.edu/"
+    },
+    {
+        "name": "Indian Institute of Technology Hyderabad",
+        "city": "Hyderabad",
+        "rank": 9,
+        "state": "Telangana",
+        "website": "https://www.iith.ac.in/"
+    },
+    {
+        "name": "National Institute of Technology Karnataka, Surathkal ",
+        "city": "Surathkal",
+        "rank": 10,
+        "state": "Karnataka",
+        "website": "https://www.nitk.ac.in/"
+    },
+    {
+        "name": "Jadavpur University",
+        "city": "Kolkata",
+        "rank": 11,
+        "state": "West Bengal",
+        "website": "https://www.jaduniv.edu.in/"
+    },
+    {
+        "name": "Vellore Institute of Technology",
+        "city": "Vellore",
+        "rank": 12,
+        "state": "Tamil Nadu",
+        "website": "https://vit.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology (Banaras Hindu University) Varanasi",
+        "city": "Varanasi",
+        "rank": 13,
+        "state": "Uttar Pradesh",
+        "website": "https://www.iitbhu.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology (Indian School of Mines)",
+        "city": "Dhanbad",
+        "rank": 14,
+        "state": "Jharkhand",
+        "website": "https://www.iitism.ac.in/"
+    },
+    {
+        "name": "National Institute of Technology Rourkela",
+        "city": "Rourkela",
+        "rank": 15,
+        "state": "Odisha",
+        "website": "https://nitrkl.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology Indore",
+        "city": "Indore",
+        "rank": 16,
+        "state": "Madhya Pradesh",
+        "website": "https://www.iiti.ac.in/"
+    },
+    {
+        "name": "Anna University",
+        "city": "Chennai",
+        "rank": 17,
+        "state": "Tamil Nadu",
+        "website": "https://www.annauniv.edu/"
+    },
+    {
+        "name": "Institute of Chemical Technology",
+        "city": "Mumbai",
+        "rank": 18,
+        "state": "Maharashtra",
+        "website": "https://www.ictmumbai.edu.in/"
+    },
+    {
+        "name": "Amrita Vishwa Vidyapeetham",
+        "city": "Coimbatore",
+        "rank": 19,
+        "state": "Tamil Nadu",
+        "website": "https://www.amrita.edu/"
+    },
+    {
+        "name": "Indian Institute of Technology, Mandi",
+        "city": "Mandi",
+        "rank": 20,
+        "state": "Himachal Pradesh",
+        "website": "https://iitmandi.ac.in/"
+    },
+    {
+        "name": "National Institute of Technology Warangal",
+        "city": "Warangal",
+        "rank": 21,
+        "state": "Telangana",
+        "website": "https://www.nitw.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology Ropar",
+        "city": "Rupnagar",
+        "rank": 22,
+        "state": "Punjab",
+        "website": "https://www.iitrpr.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology, Gandhinagar",
+        "city": "Gandhinagar",
+        "rank": 23,
+        "state": "Gujarat",
+        "website": "https://iitgn.ac.in/"
+    },
+    {
+        "name": "S.R.M. Institute of Science and Technology",
+        "city": "Chennai",
+        "rank": 24,
+        "state": "Tamil Nadu",
+        "website": "https://www.srmist.edu.in/"
+    },
+    {
+        "name": "Amity University",
+        "city": "Gautam Budh Nagar",
+        "rank": 25,
+        "state": "Uttar Pradesh",
+        "website": "https://www.amity.edu/"
+    },
+    {
+        "name": "Jamia Millia Islamia, New Delhi",
+        "city": "New Delhi",
+        "rank": 26,
+        "state": "Delhi",
+        "website": "https://www.jmi.ac.in/"
+    },
+    {
+        "name": "Siksha `O` Anusandhan",
+        "city": "Bhubaneswar",
+        "rank": 27,
+        "state": "Odisha",
+        "website": "https://www.soa.ac.in/"
+    },
+    {
+        "name": "Thapar Institute of Engineering and Technology",
+        "city": "Patiala",
+        "rank": 28,
+        "state": "Punjab",
+        "website": "https://www.thapar.edu/"
+    },
+    {
+        "name": "Birla Institute of Technology & Science - Pilani",
+        "city": "Pilani",
+        "rank": 29,
+        "state": "Rajasthan",
+        "website": "https://www.bits-pilani.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology Jodhpur",
+        "city": "Jodhpur",
+        "rank": 30,
+        "state": "Rajasthan",
+        "website": "https://www.iitj.ac.in/"
+    },
+    {
+        "name": "National Institute of Technology, Calicut",
+        "city": "Kozhikode",
+        "rank": 31,
+        "state": "Kerala",
+        "website": "https://www.nitc.ac.in/"
+    },
+    {
+        "name": "Visvesvaraya National Institute of Technology, Nagpur",
+        "city": "Nagpur",
+        "rank": 32,
+        "state": "Maharashtra",
+        "website": "https://www.vnit.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology, Patna",
+        "city": "Patna",
+        "rank": 33,
+        "state": "Bihar",
+        "website": "https://iitp.ac.in/"
+    },
+    {
+        "name": "National Institute of Technology Durgapur",
+        "city": "Durgapur",
+        "rank": 34,
+        "state": "West Bengal",
+        "website": "https://www.nitdgp.ac.in/"
+    },
+    {
+        "name": "Delhi Technological University",
+        "city": "New Delhi",
+        "rank": 35,
+        "state": "Delhi",
+        "website": "https://dtu.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Technology Bhubaneswar",
+        "city": "Bhubaneswar",
+        "rank": 36,
+        "state": "Odisha",
+        "website": "https://www.iitbbs.ac.in/"
+    },
+    {
+        "name": "Aligarh Muslim University",
+        "city": "Aligarh",
+        "rank": 37,
+        "state": "Uttar Pradesh",
+        "website": "https://www.amu.ac.in/"
+    },
+    {
+        "name": "National Institute of Technology, Silchar",
+        "city": "Silchar",
+        "rank": 38,
+        "state": "Assam",
+        "website": "https://www.nits.ac.in/"
+    },
+    {
+        "name": "Kalasalingam Academy of Research and Education",
+        "city": "Srivilliputtur",
+        "rank": 39,
+        "state": "Tamil Nadu",
+        "website": "https://kalasalingam.ac.in/"
+    },
+    {
+        "name": "Indian Institute of Engineering Science and Technology, Shibpur",
+        "city": "HOWRAH",
+        "rank": 40,
+        "state": "West Bengal",
+        "website": "https://www.iiests.ac.in/"
+    },
+    
+        {
+            "name": "Shanmugha Arts Science Technology & Research Academy",
+            "city": "Thanjavur",
+            "rank": 41,
+            "state": "Tamil Nadu",
+            "website": "https://www.sastra.edu/"
+        },
+        {
+            "name": "Kalinga Institute of Industrial Technology",
+            "city": "Bhubaneswar",
+            "rank": 42,
+            "state": "Odisha",
+            "website": "https://kiit.ac.in/"
+        },
+        {
+            "name": "Indian Institute of Space Science and Technology",
+            "city": "Thiruvananthapuram",
+            "rank": 43,
+            "state": "Kerala",
+            "website": "https://www.iist.ac.in/"
+        },
+        {
+            "name": "Koneru Lakshmaiah Education Foundation University (K L College of Engineering)",
+            "city": "Vaddeswaram",
+            "rank": 44,
+            "state": "Andhra Pradesh",
+            "website": "https://www.kluniversity.in/"
+        },
+        {
+            "name": "Chandigarh University",
+            "city": "Mohali",
+            "rank": 45,
+            "state": "Punjab",
+            "website": "https://www.cuchd.in/"
+        },
+        {
+            "name": "Malaviya National Institute of Technology",
+            "city": "Jaipur",
+            "rank": 46,
+            "state": "Rajasthan",
+            "website": "https://www.mnit.ac.in/"
+        },
+        {
+            "name": "Motilal Nehru National Institute of Technology",
+            "city": "Prayagraj",
+            "rank": 47,
+            "state": "Uttar Pradesh",
+            "website": "https://www.mnnit.ac.in/"
+        },
+        {
+            "name": "Sri Sivasubramaniya Nadar College of Engineering",
+            "city": "Kancheepuram",
+            "rank": 48,
+            "state": "Tamil Nadu",
+            "website": "https://www.ssn.edu.in/"
+        },
+        {
+            "name": "Visvesvaraya Technological University",
+            "city": "Belgaum",
+            "rank": 49,
+            "state": "Karnataka",
+            "website": "http://vtu.ac.in/"
+        },
+        {
+            "name": "National Institute of Technology Kurukshetra",
+            "city": "Kurukshetra",
+            "rank": 50,
+            "state": "Haryana",
+            "website": "https://www.nitkkr.ac.in/"
+        },
+        {
+            "name": "Lovely Professional University",
+            "city": "Phagwara",
+            "rank": 51,
+            "state": "Punjab",
+            "website": "https://www.lpu.in/"
+        },
+        {
+            "name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+            "city": "Jalandhar",
+            "rank": 52,
+            "state": "Punjab",
+            "website": "https://www.nitj.ac.in/"
+        },
+        {
+            "name": "Birla Institute of Technology",
+            "city": "Ranchi",
+            "rank": 53,
+            "state": "Jharkhand",
+            "website": "https://www.bitmesra.ac.in/"
+        },
+        {
+            "name": "Sathyabama Institute of Science and Technology",
+            "city": "Chennai",
+            "rank": 54,
+            "state": "Tamil Nadu",
+            "website": "https://www.sathyabama.ac.in/"
+        },
+        {
+            "name": "Manipal Institute of Technology",
+            "city": "Manipal",
+            "rank": 55,
+            "state": "Karnataka",
+            "website": "https://manipal.edu/mit.html"
+        },
+        {
+            "name": "Indian Institute of Technology, Tirupati",
+            "city": "YERPEDU",
+            "rank": 56,
+            "state": "Andhra Pradesh",
+            "website": "https://www.iittp.ac.in/"
+        },
+        {
+            "name": "PSG College of Technology",
+            "city": "Coimbatore",
+            "rank": 57,
+            "state": "Tamil Nadu",
+            "website": "https://www.psgtech.edu/"
+        },
+        {
+            "name": "Sardar Vallabhbhai National Institute of Technology",
+            "city": "Surat",
+            "rank": 58,
+            "state": "Gujarat",
+            "website": "https://www.svnit.ac.in/"
+        },
+        {
+            "name": "Banasthali Vidyapith",
+            "city": "Banasthali",
+            "rank": 59,
+            "state": "Rajasthan",
+            "website": "https://www.banasthali.org/"
+        },
+        {
+            "name": "National Institute of Technology Meghalaya",
+            "city": "Shillong",
+            "rank": 60,
+            "state": "Meghalaya",
+            "website": "https://www.nitmeghalaya.in/"
+        },
+        {
+            "name": "University of Petroleum and Energy Studies",
+            "city": "Dehradun",
+            "rank": 61,
+            "state": "Uttarakhand",
+            "website": "https://www.upes.ac.in/"
+        },
+        {
+            "name": "International Institute of Information Technology Hyderabad",
+            "city": "Hyderabad",
+            "rank": 62,
+            "state": "Telangana",
+            "website": "https://www.iiit.ac.in/"
+        },
+        {
+            "name": "National Institute of Technology, Patna",
+            "city": "Patna",
+            "rank": 63,
+            "state": "Bihar",
+            "website": "https://www.nitp.ac.in/"
+        },
+        {
+            "name": "Graphic Era University",
+            "city": "Dehradun",
+            "rank": 64,
+            "state": "Uttarakhand",
+            "website": "https://www.geu.ac.in/"
+        },
+        {
+            "name": "National Institute of Technology, Raipur",
+            "city": "Raipur",
+            "rank": 65,
+            "state": "Chhattisgarh",
+            "website": "https://www.nitrr.ac.in/"
+        },
+        {
+            "name": "National Institute of Technology Srinagar",
+            "city": "Srinagar",
+            "rank": 66,
+            "state": "Jammu and Kashmir",
+            "website": "https://www.nitsri.ac.in/"
+        },
+        {
+            "name": "M. S. Ramaiah Institute of Technology",
+            "city": "Bengaluru",
+            "rank": 67,
+            "state": "Karnataka",
+            "website": "https://www.msrit.edu/"
+        },
+        {
+            "name": "Indian Institute of Technology Palakkad",
+            "city": "Palakkad",
+            "rank": 68,
+            "state": "Kerala",
+            "website": "https://www.iitpkd.ac.in/"
+        },
+        {
+            "name": "Indraprastha Institute of Information Technology Delhi",
+            "city": "New Delhi",
+            "rank": 69,
+            "state": "Delhi",
+            "website": "https://www.iiitd.ac.in/"
+        },
+        {
+            "name": "Maulana Azad National Institute of Technology",
+            "city": "Bhopal",
+            "rank": 70,
+            "state": "Madhya Pradesh",
+            "website": "https://www.manit.ac.in/"
+        },
+        {
+            "name": "Defence Institute of Advanced Technology",
+            "city": "Pune",
+            "rank": 71,
+            "state": "Maharashtra",
+            "website": "https://www.diat.ac.in/"
+        },
+        {
+            "name": "College of Engineering, Pune",
+            "city": "Pune",
+            "rank": 72,
+            "state": "Maharashtra",
+            "website": "https://www.coep.org.in/"
+        },
+        {
+            "name": "Sri Krishna College of Engineering and Technology",
+            "city": "Coimbatore",
+            "rank": 73,
+            "state": "Tamil Nadu",
+            "website": "https://www.skcet.ac.in/"
+        },
+        {
+            "name": "Guru Gobind Singh Indraprastha University",
+            "city": "New Delhi",
+            "rank": 74,
+            "state": "Delhi",
+            "website": "https://www.ipu.ac.in/"
+        },
+        {
+            "name": "Manipal University, Jaipur",
+            "city": "Jaipur",
+            "rank": 75,
+            "state": "Rajasthan",
+            "website": "https://jaipur.manipal.edu/"
+        },
+        {
+            "name": "Jawaharlal Nehru Technological University",
+            "city": "Hyderabad",
+            "rank": 76,
+            "state": "Telangana",
+            "website": "https://www.jntuh.ac.in/"
+        },
+        {
+            "name": "AU College of Engineering (A)",
+            "city": "Visakhapatnam",
+            "rank": 77,
+            "state": "Andhra Pradesh",
+            "website": "https://www.andhrauniversity.edu.in/"
+        },
+        {
+            "name": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management",
+            "city": "Gwalior",
+            "rank": 78,
+            "state": "Madhya Pradesh",
+            "website": "https://www.iiitm.ac.in/"
+        },
+        {
+            "name": "Netaji Subhas University of Technology (NSUT)",
+            "city": "South West",
+            "rank": 79,
+            "state": "Delhi",
+            "website": "https://www.nsut.ac.in/"
+        },
+        {
+            "name": "National Institute of Technology Agartala",
+            "city": "Agartala",
+            "rank": 80,
+            "state": "Tripura",
+            "website": "https://www.nita.ac.in/"
+        },
+        {
+            "name": "International Institute of Information Technology Bangalore",
+            "city": "Bengaluru",
+            "rank": 81,
+            "state": "Karnataka",
+            "website": "https://www.iiitb.ac.in/"
+        },
+        {
+            "name": "Pandit Dwarka Prasad Mishra Indian Institute of Information Technology, Design and Manufacturing (IIITDM) Jabalpur",
+            "city": "Jabalpur",
+            "rank": 82,
+            "state": "Madhya Pradesh",
+            "website": "https://www.iiitdmj.ac.in/"
+        },
+        {
+            "name": "B.M.S. College of Engineering",
+            "city": "Bengaluru",
+            "rank": 83,
+            "state": "Karnataka",
+            "website": "https://www.bmsce.ac.in/"
+        },
+        {
+            "name": "Vel Tech Rangarajan Dr. Sagunthala R & D Institute of Science and Technology",
+            "city": "Chennai",
+            "rank": 84,
+            "state": "Tamil Nadu",
+            "website": "https://www.veltech.edu.in/"
+        },
+        {
+            "name": "Thiagarajar College of Engineering",
+            "city": "Madurai",
+            "rank": 85,
+            "state": "Tamil Nadu",
+            "website": "https://www.tce.edu/"
+        },
+        {
+            "name": "National Institute of Food Technology, Entrepreneurship and Management - Thanjavur (NIFTEM - Thanjavur)",
+            "city": "Thanjavur",
+            "rank": 86,
+            "state": "Tamil Nadu",
+            "website": "https://www.niftem.ac.in/"
+        },
+        {
+            "name": "Punjab Engineering College (Deemed to be University), Chandigarh",
+            "city": "Chandigarh",
+            "rank": 87,
+            "state": "Chandigarh",
+            "website": "https://www.pec.ac.in/"
+        },
+        {
+            "name": "National Institute of Technology Goa",
+            "city": "Ponda",
+            "rank": 88,
+            "state": "Goa",
+            "website": "https://www.nitgoa.ac.in/"
+        },
+        {
+            "name": "R.V. College of Engineering",
+            "city": "Bengaluru",
+            "rank": 89,
+            "state": "Karnataka",
+            "website": "https://www.rvce.edu.in/"
+        },
+        {
+            "name": "National Institute of Technology, Jamshedpur",
+            "city": "Jamshedpur",
+            "rank": 90,
+            "state": "Jharkhand",
+            "website": "https://www.nitjsr.ac.in/"
+        },
+        {
+            "name": "SR University",
+            "city": "Warangal",
+            "rank": 91,
+            "state": "Telangana",
+            "website": "https://www.srmap.edu.in/"
+        },
+        {
+            "name": "Panjab University",
+            "city": "Chandigarh",
+            "rank": 92,
+            "state": "Chandigarh",
+            "website": "https://www.puchd.ac.in/"
+        },
+        {
+            "name": "Indian Institute of Information Technology Allahabad",
+            "city": "Prayagraj (Allahabad)",
+            "rank": 93,
+            "state": "Uttar Pradesh",
+            "website": "https://www.iiita.ac.in/"
+        },
+        {
+            "name": "Jaypee Institute of Information Technology",
+            "city": "Noida",
+            "rank": 94,
+            "state": "Uttar Pradesh",
+            "website": "https://www.jiit.ac.in/"
+        },
+        {
+            "name": "Rajalakshmi Engineering College",
+            "city": "Chennai",
+            "rank": 95,
+            "state": "Tamil Nadu",
+            "website": "https://www.rajalakshmi.org/"
+        },
+        {
+            "name": "The Northcap University",
+            "city": "Gurugram",
+            "rank": 96,
+            "state": "Haryana",
+            "website": "https://www.ncuindia.edu/"
+        },
+        {
+            "name": "Siddaganga Institute of Technology",
+            "city": "Tumkur",
+            "rank": 97,
+            "state": "Karnataka",
+            "website": "https://www.sit.ac.in/"
+        },
+        {
+            "name": "C.V. Raman Global University, Odisha",
+            "city": "Bhubaneswar",
+            "rank": 98,
+            "state": "Odisha",
+            "website": "https://www.cvrgu.in/"
+        },
+        {
+            "name": "Vignan's Foundation for Science, Technology and Research",
+            "city": "Guntur",
+            "rank": 99,
+            "state": "Andhra Pradesh",
+            "website": "https://www.vignan.ac.in/"
+        },
+        {
+            "name": "PES University",
+            "city": "Bengaluru",
+            "rank": 100,
+            "state": "Karnataka",
+            "website": "https://www.pes.edu/"
+        }
+    ]
+    
