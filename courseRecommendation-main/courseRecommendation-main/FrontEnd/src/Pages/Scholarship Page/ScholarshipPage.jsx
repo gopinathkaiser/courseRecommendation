@@ -119,7 +119,7 @@ const ScholarshipPage = () => {
         return (
             (categoryFilter === '' || item.category === categoryFilter) &&
             (stateFilter === '' || item.state === stateFilter) && 
-            (incomeLimit === '' || item.incomelimit <= parseFloat(incomeLimit))
+            (incomeLimit === '' || item.incomelimit >= parseFloat(incomeLimit))
         );
     });
 
